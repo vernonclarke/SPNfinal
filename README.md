@@ -1,4 +1,4 @@
-# striatal_SPN_lib
+# SPNfinal
 
 This repository contains a library of striatal projection neurons.
 
@@ -22,7 +22,7 @@ Model software
 ------------------------------------------------------------------------------
 
 NEURON+python: https://www.neuron.yale.edu/neuron/download
-(tested on version 7.5 and 7.6)
+(tested on version 8.1 and 8.2)
 
 
 General
