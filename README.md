@@ -29,11 +29,10 @@ NEURON+python: https://www.neuron.yale.edu/neuron/download
 (tested on version 8.1 and 8.2)
 
 Install Neuron
-https://www.neuron.yale.edu/neuron/download![image](https://github.com/vernonclarke/SPNfinal/assets/149691755/6c47a2fe-8873-4027-bf71-dbd9f3eb8eb9)
+https://www.neuron.yale.edu/neuron/download
 
 Install Python
 https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html
-![image](https://github.com/vernonclarke/SPNfinal/assets/149691755/d97232bc-03d0-4a8e-9e4b-cdb03b123c9a)
 
 
 
