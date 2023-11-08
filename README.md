@@ -5,16 +5,8 @@ This repository contains a library of striatal projection neurons.
 
 vernon.clarke@northwestern.edu
 
-
-
-## Model software
-
-NEURON+python: https://www.neuron.yale.edu/neuron/download
-(tested on version 8.1 and 8.2)
-
-
 ## General
-The code is adappted from the work of found in the ppublication:
+The code is adapted from the work and published code found in the publication:
 
     Lindroos and Hellgren Kotaleski 2020. 
     Predicting complex spikes in striatal projection neurons of the direct pathway 
@@ -28,6 +20,16 @@ Translated versions of the models in:
     The microcircuits of striatum in silico. PNAS
     
 are also included. See the included example file and the specific branch for these models.
+
+
+
+## Model software
+
+NEURON+python: https://www.neuron.yale.edu/neuron/download
+(tested on version 8.1 and 8.2)
+
+
+
 
 
 
