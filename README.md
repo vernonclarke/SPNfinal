@@ -51,7 +51,9 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
 
 3. **Compile mechanisms**:
 
-   Navigate to directory containing NEURON mechanisms. For instance if 'SPNfinal' is in documents folder in OS, mechanisms are located in cd/documents/SPNfinal/mechanisms/single
+   Navigate to directory containing NEURON mechanisms.
+
+   For instance if 'SPNfinal' is in documents folder in OS, mechanisms are located in cd/documents/SPNfinal/mechanisms/single
 
    Mechanisms are then compiled by entering 'nrnivmodl' or 'mknrndll'
 
@@ -68,7 +70,9 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
    ```
 
 5. **Create a conda environment**
-   There is a yaml file in the main directory called environment.yml. This can be used to create a conda environment called 'neuron'
+   There is a yaml file in the main directory called environment.yml.
+
+   This can be used to create a conda environment called 'neuron'
 
    Ensure make sure to navigate back to the main directory after step 3 above
 
@@ -136,6 +140,12 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    Code should run and generate raw data used to generate figures
 
    If option save = True in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
+
+
+
+
+
+### Graphs and analysis
 
 The final analysis and figures used in the ms were made using R
 
