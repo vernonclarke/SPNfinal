@@ -118,13 +118,13 @@ The following steps 1-6 must be every time a new Jupyter Notebook session is sta
 
    On MacOS / Linux:
    ```bash
-   cd documents/SPNfinal/mechanisms/single
+   cd documents/SPNfinal
    conda activate neuron
    ```
 
    On Windows:
    ```bash
-   cd C:\Users\YourUsername\documents\SPNfinal\mechanisms\single
+   cd C:\Users\YourUsername\documents\SPNfinal
    conda activate neuron
    ```
 3. **Run Jupyter notebook'**
