@@ -3,8 +3,60 @@ to be finished
 
 This repository contains a library of striatal projection neurons.
 
-
 vernon.clarke@northwestern.edu
+
+clay-surmeier@northwestern.edu
+
+# Spiny Projection Neuron Model
+
+NEURON model of SPN built on top of striatal_SPN_lib by Lindroos and Hellgren Kotaleski 2020, as seen in 'Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine' (EJN). 
+
+    Lindroos and Hellgren Kotaleski 2020. 
+    Predicting complex spikes in striatal projection neurons of the direct pathway 
+    following neuromodulation by acetylcholine and dopamine. EJN
+
+    
+* Original code can be found here: https://github.com/robban80/striatal_SPN_lib
+* ModelDB: https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775#tabs-1
+
+### NEURON
+The models are built in NEURON+python: https://www.neuron.yale.edu/neuron/
+
+* For downloading NEURON: https://www.neuron.yale.edu/neuron/download
+* Quickstart: https://www.neuron.yale.edu/ftp/neuron/2019umn/neuron-quickstart.pdf
+* (Old) Mac instructions: https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf
+* For tutorials on NEURON+python: https://neuron.yale.edu/neuron/docs/python-introduction
+
+### Virtual Environments
+There is a yaml environment file that is set to work with NEURON 8.2.1 and python 3.9.2 named 'neuron'. Be sure that your versions of NEURON and python are compatible if using a different distribution.
+
+* For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+* For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
+
+### Github
+If you are unfamiliar with Github, the desktop app is a useful interface to use.
+
+* For installing Github Desktop GUI: https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+* Cloning a repository using Github Desktop: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop
+
+How to run the models
+---------------------
+
+1. Install NEURON with python support (see setup instructions)
+2. Using terminal or shell prompt, compile the mechanisms in mechanisms/single 'nrnivmodl' or 'mknrndll' (in command line 'cd mechanisms/single' then 'nrnivmodl')
+3. Create a conda environment from environment.yml using command 'conda env create -f environment.yml' (make sure to 'cd ../..' back to main directory) then check this installed correctly with 'conda list'
+4. Activate conda environment 'conda activate neuron'
+5. Add environment to Jupyter notebook ipykernel using command 'python -m ipykernel install --user --name neuron --display-name "Python (neuron)"'
+6. Run Jupyter notebook using command 'jupyter notebook'
+7. Open notebook (i.e. click on 'example.ipynb')
+8. Choose "Python (neuron)" kernel under Kernel > Change Kernel > Python (neuron)
+9. Run code!
+
+
+
+
+
+
 
 ## General
 The code is adapted from the work and published code found in the publication:
