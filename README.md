@@ -53,55 +53,103 @@ If you are unfamiliar with Github, the desktop app is a useful interface to use.
 How to run the models
 ---------------------
 
+The following steps 1-6 must be run once prior to running the code in Jupyter Notebook
+
 1. **Install NEURON with python support (see setup instructions)**
 
-2. **Compile mechanisms in NEURON**
-
-   a. **Open your Terminal**:
-   - On Windows: Search for command prompt or PowerShell in the start menu.
+2. **Open Terminal**:
    - On MacOS: Press `cmd + cpace` to open spotlight search and type 'terminal'.
    - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
+   - On Windows: Search for command prompt or PowerShell in the start menu.
+
+3. **Compile mechanisms**:
+
+   Navigate to directory containing NEURON mechanisms. For instance if 'SPNfinal' is in documents folder in OS, mechanisms are located in cd/documents/SPNfinal/mechanisms/single
+
+   Mechanisms are then compiled by entering 'nrnivmodl' or 'mknrndll'
+
+   On MacOS / Linux:
+   ```bash
+   cd documents/SPNfinal/mechanisms/single
+   nrnivmodl
+   ```
+
+   On Windows:
+   ```bash
+   cd C:\Users\YourUsername\documents\SPNfinal\mechanisms\single
+   nrnivmodl
+   ```
+
+5. **Create a conda environment**
+   There is a yaml file in the main directory called environment.yml. This can be used to create a conda environment called 'neuron'
+
+   Ensure make sure to navigate back to the main directory after step 3 above
+
+   Check installed correctly using 'conda list'
+
+   On MacOS / Linux:
+   ```bash
+   cd ../.. 
+   conda env create -f environment.yml
+   conda list
+   ```
+   On Windows:
+   ```bash
+   cd .... 
+   conda env create -f environment.yml
+   conda list
+   ```
+
    
-   b. **compile mechanisms in mechanisms/single**
+7. **Quit Terminal**
+   ```bash
+   exit
+   ```
 
-   Using terminal or shell prompt, compile the mechanisms in mechanisms/single using command 'nrnivmodl' or 'mknrndll'
+The following steps 1-6 must be every time a new Jupyter Notebook session is started
 
-   (your_path is the path to the directory containing downloaded code)
+1. **Open Terminal**:
+   - On MacOS: Press `cmd + cpace` to open spotlight search and type 'terminal'.
+   - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
+   - On Windows: Search for command prompt or PowerShell in the start menu.
 
-       cd your_path/mechanisms/single/
-       nrnivmodl
+2. **Activate conda environment 'neuron'**
+   Navigate back to the main directory
 
-3. **Create a conda environment from environment.yml**
+   On MacOS / Linux:
+   ```bash
+   cd documents/SPNfinal/mechanisms/single
+   conda activate neuron
+   ```
 
-    a. **navigate to parent directory**
+   On Windows:
+   ```bash
+   cd C:\Users\YourUsername\documents\SPNfinal\mechanisms\single
+   conda activate neuron
+   ```
+3. **Run Jupyter notebook'**
 
-       cd your_path      
+   Adds environment then open Jupyter Notebook
 
-    or having just run 'nrnivmodl' in 'mechanisms/single' simply:
+   ```bash
+   python -m ipykernel install --user --name neuron --display-name "Python (neuron)"
+   jupyter notebook
+   ```
 
-       cd ../..
+4. **Run a simulation**
 
-    b. **create a conda environment called 'neuron'**  
- 
-       conda env create -f environment.yml
-  
-    c. **check installed correctly**  
-    
-       conda_list
+   Jupyter Notebook should be open in default browser
 
-    d. **close terminal**
-
-
-
-    
+   
+   
 using command 'conda env create -f environment.yml' (make sure to 'cd ../..' back to main directory) then check this installed correctly with 'conda list'
 
-5. Activate conda environment 'conda activate neuron'
-6. Add environment to Jupyter notebook ipykernel using command 'python -m ipykernel install --user --name neuron --display-name "Python (neuron)"'
-7. Run Jupyter notebook using command 'jupyter notebook'
-8. Open notebook (i.e. click on 'example.ipynb')
-9. Choose "Python (neuron)" kernel under Kernel > Change Kernel > Python (neuron)
-10. Run code!
+4. Activate conda environment 'conda activate neuron'
+5. Add environment to Jupyter notebook ipykernel using command 'python -m ipykernel install --user --name neuron --display-name "Python (neuron)"'
+6. Run Jupyter notebook using command 'jupyter notebook'
+7. Open notebook (i.e. click on 'example.ipynb')
+8. Choose "Python (neuron)" kernel under Kernel > Change Kernel > Python (neuron)
+9. Run code!
 
 
 
