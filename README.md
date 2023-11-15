@@ -45,7 +45,7 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
 1. **Install NEURON with python support** (see setup instructions)
 
 2. **Open Terminal**:
-   - On MacOS: Press `cmd + cpace` to open spotlight search and type 'terminal'.
+   - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
    - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
    - On Windows: Search for command prompt or PowerShell in the start menu.
 
