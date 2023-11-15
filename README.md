@@ -147,9 +147,9 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
 
 ### Graphs and analysis
 
-The final analysis and figures used in the ms were made using R
+The final analysis and figures used in the ms were made using R (R version 4.3.1 (2023-06-16) -- "Beagle Scouts")
 
-R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+    R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
 
 This code is provided in the 'R analysis' directory
 
