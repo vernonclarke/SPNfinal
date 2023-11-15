@@ -38,8 +38,7 @@ If you are unfamiliar with Github, the desktop app is a useful interface to use.
 * For installing Github Desktop GUI: https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
 * Cloning a repository using Github Desktop: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop
 
-How to run the models
----------------------
+### Running the models
 
 The following steps 1-6 must be run once prior to running the code in Jupyter Notebook
 
@@ -94,7 +93,7 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
    exit
    ```
 
-The following steps 1-6 must be every time a new Jupyter Notebook session is started
+The following steps 1-4 must be every time a new Jupyter Notebook session is started
 
 1. **Open Terminal**:
    - On MacOS: Press `cmd + cpace` to open spotlight search and type 'terminal'.
