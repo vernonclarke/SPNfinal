@@ -95,7 +95,7 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
    ```
    On Windows:
    ```bash
-   cd .... 
+   cd ..\.. 
    conda env create -f environment.yml
    conda list
    ```
