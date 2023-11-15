@@ -1,23 +1,13 @@
 # SPNfinal
-to be finished
-
-This repository contains a library of striatal projection neurons.
-
 vernon.clarke@northwestern.edu
 
 clay-surmeier@northwestern.edu
 
-# Spiny Projection Neuron Model
-
-NEURON model of SPN built on top of striatal_SPN_lib by Lindroos and Hellgren Kotaleski 2020, as seen in 'Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine' (EJN). 
-
+This repository contains a Neuron model of striatal projection neurons built on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020
+    
     Lindroos and Hellgren Kotaleski 2020. 
     Predicting complex spikes in striatal projection neurons of the direct pathway 
     following neuromodulation by acetylcholine and dopamine. EJN
-
-    
-* Original code can be found here: https://github.com/robban80/striatal_SPN_lib
-* ModelDB: https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775#tabs-1
 
 ### NEURON
 
