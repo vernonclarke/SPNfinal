@@ -42,9 +42,6 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 * [(Old) Mac instructions](https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf)
   
-4. **Install Python**:
-
-  Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html)
 
 ## Running the Models
 
