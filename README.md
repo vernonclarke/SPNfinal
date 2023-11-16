@@ -1,10 +1,6 @@
-# SPNfinal
+# Repository for NEURON Model of Striatal Projection Neurons
 
-clay-surmeier@northwestern.edu
-
-vernon.clarke@northwestern.edu
-
-This repository contains a NEURON model of striatal projection neurons built on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020:
+TThis repository contains a NEURON model of striatal projection neurons built on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020:
 
     Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the 
     direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020. 
@@ -19,24 +15,38 @@ or
 
 https://github.com/ModelDBRepository/266775
 
-### NEURON and Python
+## Table of Contents
+- [Installation](#installation)
+- [Running the Models](#running-the-models)
+- [Data Analysis](#data-analysis)
+- [Virtual Environments](#virtual-environments)
+- [Using GitHub](#using-github)
+- [Contact](#contact)
 
-* The models are built in NEURON+Python: https://www.neuron.yale.edu
+## Installation
 
-  (tested on version 8.1 and 8.2)
+### Prerequisites
+- NEURON (tested on versions 8.1 and 8.2) [NEURON official website](https://www.neuron.yale.edu)
+- Python (tested using version 3.9.16)
 
-* Install Neuron: https://www.neuron.yale.edu/neuron/download
+### Steps
+1. **Install NEURON**:
+
+Download from [NEURON official website](https://www.neuron.yale.edu/neuron/download)
 
 * Quickstart: https://www.neuron.yale.edu/ftp/neuron/2019umn/neuron-quickstart.pdf
 
 * (Old) Mac instructions: https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf
+  
 
-* Install Python: https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html
+2. **Install Python**:
+
+Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html)
 
 
-### Running the models
+## Running the Models
 
-The following steps 1-6 must be run once prior to running the code in Jupyter Notebook
+### Getting Started
 
 1. **Install NEURON with python support** (see setup instructions)
 
@@ -89,13 +99,14 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
    conda env create -f environment.yml
    conda list
    ```
-
    
-7. **Quit Terminal**
+6. **Quit Terminal**
 
    ```bash
    exit
    ```
+   
+### Running simulations in Jupyter Notebook
 
 The following steps 1-4 must be every time a new Jupyter Notebook session is started
 
@@ -143,15 +154,13 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    If option save = True in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
 
 
-### Graphs and analysis
+## Data Analysis
 
-The final analysis and figures used in the ms were made using R:
+The final analysis and figures used in the manuscript were made using R:
+- R version 4.3.1 – "Beagle Scouts"
+- [R Statistical Software](https://www.R-project.org/)
 
-R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
-
-    R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
-
-This code is provided in the 'R analysis' directory
+Refer to the 'R analysis' directory for the code.
 
 Each simulation has a unique identifier; for instance, Fig5_EF.ipynb is sim4. 
 
@@ -174,10 +183,9 @@ On Windows:
 This line should be the only one that it is necessary to change in order to execute the R code.
 
 
+## Virtual Environments
 
-### Virtual Environments
-
-There is a yaml environment file ('environment.yml') that is set to work with NEURON 8.2.1 and python 3.9.16 (name 'neuron'). 
+The `environment.yml` file is configured for NEURON 8.2.1 and Python 3.9.16. Use this file to create a consistent environment for running the models.
 
 In brief:     
 
@@ -202,20 +210,25 @@ In brief:
 * For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 * For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
+  
 
+## Using GitHub
 
-### Github
+For beginners, the [GitHub Desktop GUI](https://desktop.github.com/) is recommended. Instructions for cloning a repository using GitHub Desktop can be found [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
 
-If you are unfamiliar with Github, the desktop app is a useful interface to use.
+## Contact
 
-* For installing Github Desktop GUI: https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
-
-* Cloning a repository using Github Desktop: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop
-
-
-
-Any queries should be directed to:
+The model was adapted from the publicly available code by Clay Surmeier and Vernon Clarke
 
 vernon.clarke@northwestern.edu
+
+clay-surmeier@northwestern.edu
+
+
+For queries related to this repository, please [open an issue](https://github.com/your-repo-link/issues) or contact us directly at [vernon.clarke@northwestern.edu]
+
+---
+
+
    
 
