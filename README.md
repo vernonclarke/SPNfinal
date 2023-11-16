@@ -276,7 +276,9 @@ In brief:
 
 ## GitHub
 
-For beginners, the [GitHub Desktop GUI](https://desktop.github.com/) is recommended. Instructions for cloning a repository using GitHub Desktop can be found [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
+For beginners, the [GitHub Desktop GUI](https://desktop.github.com/) is recommended. 
+
+Instructions for cloning a repository using GitHub Desktop can be found [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
 
 ## Contact
 
