@@ -28,11 +28,11 @@ The original model can be found here: [modelDB](https://senselab.med.yale.edu/Mo
 ### Steps
 1. **Install NEURON**:
 
-  Instructions from [NEURON official website](https://www.neuron.yale.edu/neuron/download)
+  Instructions from [NEURON install](https://www.neuron.yale.edu/neuron/download)
 
-* Quickstart: https://www.neuron.yale.edu/ftp/neuron/2019umn/neuron-quickstart.pdf
+* [Quickstart](https://www.neuron.yale.edu/ftp/neuron/2019umn/neuron-quickstart.pdf)
 
-* (Old) Mac instructions: https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf
+* [(Old) Mac instructions](https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf)
   
 
 2. **Install Python**:
