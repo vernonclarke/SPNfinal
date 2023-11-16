@@ -184,23 +184,23 @@ The `environment.yml` file is configured for NEURON 8.2.2 and Python 3.9.16. Use
 
 In brief:     
 
-* **YAML Environment File**: The file environment.yml is a YAML file commonly used in Conda
+* **YAML Environment File**: The file `environment.yml` is a YAML file commonly used in Conda
 
   This file specifies the dependencies and settings for a particular virtual environment.
 
-* **Environment Name** - name Key: In the environment.yml file, there is a key called name.
+* **Environment Name** - name Key: In the `environment.yml` file, there is a key called name.
 
   The value associated with this key is the name of the Conda environment to be created.
 
-  In this case, this name is 'neuron'. This is the name that will subsequently be used
+  In this case, this name is `neuron`. This is the name that will subsequently be used
 
   to refer to the environment when activating it or installing additional packages into it.
 
-* **Creating the Environment**: When the command 'conda env create -f environment.yml' is executed
+* **Creating the Environment**: When the command `conda env create -f environment.yml` is executed
 
-  Conda reads the environment.yml file and creates a new environment based on the specifications in that file.
+  Conda reads the `environment.yml` file and creates a new environment based on the specifications in that file.
 
-  The environment will have the name given by the name key in the YAML file i.e. 'neuron'.
+  The environment will have the name given by the name key in the YAML file i.e. `neuron`.
 
 * For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
