@@ -26,7 +26,15 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 - Python (tested using version 3.9.16)
 
 ### Steps
-1. **Install NEURON**:
+1. **Install conda**
+
+   [Setting up Conda (python package manager)](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+
+2. **Install Jupyter Notebook**
+
+   [Setting up Jupyter Notebook](https://jupyter.org/install)
+
+3. **Install NEURON**:
 
   Follow the guide at [NEURON Installation](https://www.neuron.yale.edu/neuron/download)
 
@@ -35,7 +43,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 * [(Old) Mac instructions](https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf)
   
 
-2. **Install Python**:
+4. **Install Python**:
 
   Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html)
 
@@ -202,9 +210,6 @@ In brief:
 
   The environment will have the name given by the name key in the YAML file i.e. `neuron`.
 
-* [Setting up Conda (python package manager)](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
-
-* [Setting up Jupyter Notebook](https://jupyter.org/install)
   
 
 ## GitHub
