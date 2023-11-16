@@ -1,8 +1,6 @@
 # Repository for NEURON Model of Striatal Projection Neurons
 
-This repository contains a NEURON model of striatal projection neurons (or SPNs) designed to simulate the interaction between GABAergic and glutamatergic synaptic inputs.
-
-It is built on top of the 'striatal_SPN_lib' repository created by Lindroos and Hellgren Kotaleski 2020:
+This repository contains a NEURON model of striatal projection neurons (or SPNs) designed to simulate the interaction between GABAergic and glutamatergic synaptic inputs. It is built on top of the 'striatal_SPN_lib' repository created by Lindroos and Hellgren Kotaleski 2020:
 
     Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the 
     direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020. 
