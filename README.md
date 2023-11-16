@@ -76,9 +76,9 @@ The following sections explain the inital set up required and instructions to cr
 
    Navigate to directory containing NEURON mechanisms.
 
-   For instance if 'SPNfinal' is in documents folder in OS, mechanisms are located in cd/documents/SPNfinal/mechanisms/single
+   For instance if `SPNfinal` is in documents folder in OS, mechanisms are located in `cd/documents/SPNfinal/mechanisms/single`
 
-   Mechanisms are then compiled by entering 'nrnivmodl' or 'mknrndll'
+   Mechanisms are then compiled by entering `nrnivmodl` or `mknrndll`
 
    On MacOS / Linux:
    ```bash
