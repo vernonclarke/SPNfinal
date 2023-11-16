@@ -4,10 +4,8 @@ This repository contains a NEURON model of striatal projection neurons (or SPNs)
 
 It is built on top of the 'striatal_SPN_lib' repository created by Lindroos and Hellgren Kotaleski 2020:
 
-    Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the 
-    direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020. 
+[Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020](https://doi.org/10.1111/ejn.14891)
 
-[doi:10.1111/ejn.14891](https://doi.org/10.1111/ejn.14891)
 
 The original model can be found here: [modelDB](https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2) or [github](https://github.com/ModelDBRepository/266775)
 
@@ -44,7 +42,7 @@ Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/
 
 ## Running the Models
 
-The following sections explain the inital set up required and instructions to create the simulations used to create the figures found in the ms
+The following sections explain the inital set up required and instructions to create simulations subsequently used to generate figures.
 
 ### Getting Started
 
