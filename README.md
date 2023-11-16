@@ -4,9 +4,7 @@ clay-surmeier@northwestern.edu
 
 vernon.clarke@northwestern.edu
 
-This repository contains a NEURON model of striatal projection neurons built 
-
-on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020:
+This repository contains a NEURON model of striatal projection neurons built on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020:
 
     Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the 
     direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020. 
@@ -23,13 +21,16 @@ on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020:
 * Install Neuron: https://www.neuron.yale.edu/neuron/download
 
 * Quickstart: https://www.neuron.yale.edu/ftp/neuron/2019umn/neuron-quickstart.pdf
+
 * (Old) Mac instructions: https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf
 
 * Install Python
+
 https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html
 
 
 ### Virtual Environments
+
 There is a yaml environment file ('environment.yml') that is set to work with NEURON 8.2.1 and python 3.9.16 (name 'neuron'). 
 
 In brief:     
@@ -53,12 +54,15 @@ In brief:
   The environment will have the name given by the name key in the YAML file i.e. 'neuron'.
 
 * For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+
 * For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
 
 ### Github
+
 If you are unfamiliar with Github, the desktop app is a useful interface to use.
 
 * For installing Github Desktop GUI: https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+
 * Cloning a repository using Github Desktop: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop
 
 ### Running the models
@@ -166,7 +170,6 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    Code should run and generate raw data used to generate figures
 
    If option save = True in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
-
 
 
 ### Graphs and analysis
