@@ -21,6 +21,7 @@ https://github.com/ModelDBRepository/266775
 - [Installation](#installation)
 - [Running the Models](#running-the-models)
   - [Getting Started](#getting-started)
+  - [Simulations](#running-simulations-in-jupyter-notebook)
 - [Data Analysis](#data-analysis)
 - [Virtual Environments](#virtual-environments)
 - [Using GitHub](#using-github)
