@@ -9,13 +9,7 @@ It is built on top of the 'striatal_SPN_lib' repository created by Lindroos and 
 
 [doi:10.1111/ejn.14891](https://doi.org/10.1111/ejn.14891)
 
-The original model can be found here:
-
-https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2)
-
-or
-
-https://github.com/ModelDBRepository/266775
+The original model can be found here: [modelDB](https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2) or [github](https://github.com/ModelDBRepository/266775)
 
 ## Table of Contents
 - [Installation](#installation)
