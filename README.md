@@ -24,9 +24,7 @@ This repository contains a NEURON model of striatal projection neurons built on 
 
 * (Old) Mac instructions: https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf
 
-* Install Python
-
-https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html
+* Install Python: https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html
 
 
 ### Virtual Environments
@@ -56,6 +54,7 @@ In brief:
 * For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 * For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
+
 
 ### Github
 
