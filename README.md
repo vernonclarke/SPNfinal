@@ -15,6 +15,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
   - [Getting Started](#getting-started)
   - [Simulations](#running-simulations-in-jupyter-notebook)
 - [Data Analysis](#data-analysis)
+- [Anaconda vs Miniconda](#anaconda_vs_miniconda)
 - [Virtual Environments](#virtual-environments)
 - [GitHub](#using-github)
 - [Contact](#contact)
@@ -26,15 +27,15 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 - Python (tested using version 3.9.16)
 
 ### Steps
-1. **Install [Conda](https://docs.conda.io/projects/conda/en/stable/)**
+1. **Install [Conda](https://docs.conda.io/projects/conda/en/stable/)**(python package manager)
    
-   [Setting up Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) (python package manager)]
-
+   [Setting up](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+   
    Installing Conda should include a version of Python. 
 
    Conda is simply a package manager and environment management system that is used to install, run, and update packages and their dependencies.
 
-   Miniconda is a lightweight option that includes Conda and Python, but not the additional packages that come with Anaconda.
+   Either install Anaconda or Miniconda is a lightweight option that includes Conda and Python, but not the additional packages that come with Anaconda.
 
 3. **Install [Jupyter Notebook](https://jupyter.org)**
 
@@ -192,6 +193,66 @@ The following sections explain the inital set up required and instructions to cr
     path <- paste0('C:\\Users\\YourUsername\\Documents\\GitHub\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
 
   This line should be the only one that it is necessary to change in order to execute the R code.
+
+
+
+
+
+
+## Anaconda vs Miniconda
+
+Anaconda and Miniconda are both popular distributions for Python and R programming in data science. They include the Conda package manager and aim to simplify package management and deployment.
+
+**Anaconda**
+
+Anaconda is a full-featured distribution that includes:
+
+- Python and R language
+- Conda package manager
+- Over 1,500 pre-installed scientific packages
+- Tools like Jupyter Notebook, Spyder, etc.
+
+It's ideal for those who prefer an out-of-the-box setup for data science and scientific computing.
+
+**Miniconda**
+
+Miniconda offers a minimalistic approach:
+
+- Python or R language
+- Conda package manager
+- No pre-installed packages
+
+It's suitable for users who want to have a lightweight base to start with and prefer to install packages as needed.
+
+**Choosing Between Anaconda and Miniconda**
+
+**Advantages of Anaconda**:
+
+- Quick, easy setup with a comprehensive suite of scientific packages and tools.
+- Wide array of data science tools readily available within a single application.
+
+**Advantages of Miniconda**::
+
+-Lightweight, minimal base installation.
+- Control over which packages are installed.
+- Requires limited disk space or bandwidth.
+- Clean environment that only includes packages required
+
+**Installation**
+
+- For Anaconda, download the installer from the [Anaconda download page](https://www.anaconda.com/products/individual#Downloads).
+- For Miniconda, visit the [Miniconda download page](https://docs.conda.io/en/latest/miniconda.html).
+
+Follow the installation instructions provided on the respective download pages.
+
+**Additional Resources**
+
+- [Anaconda Documentation](https://docs.anaconda.com/)
+- [Miniconda Documentation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+- [Conda Package Management](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html)
+
+
+
 
 
 ## Virtual Environments
