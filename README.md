@@ -31,11 +31,11 @@ There is a yaml environment file ('environment.yml') that is set to work with NE
 
 In brief:     
 
-* YAML Environment File: The file environment.yml is a YAML file commonly used in Conda
+* **YAML Environment File**: The file environment.yml is a YAML file commonly used in Conda
 
   This file specifies the dependencies and settings for a particular virtual environment.
 
-* Environment Name - name Key: In the environment.yml file, there is a key called name.
+* **Environment Name** - name Key: In the environment.yml file, there is a key called name.
 
   The value associated with this key is the name of the Conda environment to be created.
 
@@ -43,7 +43,7 @@ In brief:
 
   to refer to the environment when activating it or installing additional packages into it.
 
-* Creating the Environment: When the command 'conda env create -f environment.yml' is executed (see later)
+* **Creating the Environment**: When the command 'conda env create -f environment.yml' is executed (see later)
 
   Conda reads the environment.yml file and creates a new environment based on the specifications in that file.
 
