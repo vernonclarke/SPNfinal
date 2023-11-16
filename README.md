@@ -6,8 +6,9 @@ clay-surmeier@northwestern.edu
 This repository contains a NEURON model of striatal projection neurons built on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020
     
     Lindroos R, Kotaleski JH. 
-    Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine. 
-    Eur J Neurosci. 2020.\ 
+    Predicting complex spikes in striatal projection neurons of the direct 
+    pathway following neuromodulation by acetylcholine and dopamine. 
+    Eur J Neurosci. 2020.
     doi:10.1111/ejn.14891
 
 ### NEURON
@@ -26,9 +27,27 @@ https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html
 
 
 ### Virtual Environments
-There is a yaml environment file that is set to work with NEURON 8.2.1 and python 3.9.16 named 'environment'. 
+There is a yaml environment file ('environment.yml') that is set to work with NEURON 8.2.1 and python 3.9.16 (name 'neuron'). 
 
-Be sure that your versions of NEURON and python are compatible if using a different distribution.
+In brief:     
+
+* YAML Environment File: The file environment.yml is a YAML file commonly used in Conda
+
+This file specifies the dependencies and settings for a particular virtual environment.
+
+* Environment Name - name Key: In the environment.yml file, there is a key called name.
+
+  The value associated with this key is the name of the Conda environment to be created.
+
+  In this case, this name is 'neuron'. This is the name that will subsequently be used
+
+  to refer to the environment when activating it or installing additional packages into it.
+
+* Creating the Environment: When the command 'conda env create -f environment.yml' is executed (see later)
+
+  Conda reads the environment.yml file and creates a new environment based on the specifications in that file.
+
+  The environment will have the name given by the name key in the YAML file i.e. 'neuron'.
 
 * For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
 * For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
@@ -121,7 +140,7 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    ```
 3. **Run Jupyter notebook**
 
-   Adds environment then open Jupyter Notebook
+   Add 'neuron' environment then open Jupyter Notebook
 
    ```bash
    python -m ipykernel install --user --name neuron --display-name "Python (neuron)"
