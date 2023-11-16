@@ -144,7 +144,7 @@ The following sections explain the inital set up required and instructions to cr
 
    Code should run and generate raw data used to generate figures
 
-   If option save = True in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
+   If option **save = True** in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
 
 
 ## Data Analysis
