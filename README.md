@@ -27,14 +27,14 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 ### Steps
 1. **Install [conda](https://docs.conda.io/projects/conda/en/stable/)**
+   
    [Setting up Conda (python package manager)](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
-
 
 2. **Install [Jupyter Notebook](https://jupyter.org)**
 
    [Setting up Jupyter Notebook](https://jupyter.org/install)
 
-4. **Install NEURON**:
+3. **Install NEURON**:
 
   Follow the guide at [NEURON Installation](https://www.neuron.yale.edu/neuron/download)
 
