@@ -8,9 +8,8 @@ This repository contains a NEURON model of striatal projection neurons built
 
 on top of 'striatal_SPN_lib' created by Lindroos and Hellgren Kotaleski 2020:
 
-Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the 
-
-direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020. 
+    Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the 
+    direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020. 
 
 [doi:10.1111/ejn.14891](https://doi.org/10.1111/ejn.14891)
 
