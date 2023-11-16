@@ -90,6 +90,7 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
    ```
 
 5. **Create a conda environment**
+
    There is a yaml file in the main directory called environment.yml.
 
    This can be used to create a conda environment called 'neuron'
@@ -113,6 +114,7 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
 
    
 7. **Quit Terminal**
+
    ```bash
    exit
    ```
@@ -125,6 +127,7 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    - On Windows: Search for command prompt or PowerShell in the start menu.
 
 2. **Activate conda environment 'neuron'**
+
    Navigate back to the main directory
 
    On MacOS / Linux:
@@ -138,7 +141,7 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    cd C:\Users\YourUsername\documents\SPNfinal
    conda activate neuron
    ```
-3. **Run Jupyter notebook**
+4. **Run Jupyter notebook**
 
    Add 'neuron' environment then open Jupyter Notebook
 
@@ -147,7 +150,7 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    jupyter notebook
    ```
 
-4. **Run a simulation**
+5. **Run a simulation**
 
    Jupyter Notebook should be open in the default browser
 
@@ -160,8 +163,6 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
    Code should run and generate raw data used to generate figures
 
    If option save = True in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
-
-
 
 
 
