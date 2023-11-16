@@ -39,10 +39,9 @@ The original model can be found here: [modelDB](https://senselab.med.yale.edu/Mo
 
   Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html)
 
-
 ## Running the Models
 
-  The following sections explain the inital set up required and instructions to create simulations subsequently used to generate figures.
+The following sections explain the inital set up required and instructions to create simulations subsequently used to generate figures.
 
 ### Getting Started
 
@@ -75,11 +74,7 @@ The original model can be found here: [modelDB](https://senselab.med.yale.edu/Mo
 
 5. **Create a conda environment**
 
-   There is a yaml file in the main directory called environment.yml.
-
-   This can be used to create a conda environment called 'neuron'
-
-   See notes below **Virtual Environments**
+   There is a yaml file in the main directory called environment.yml. This can be used to create a conda environment called 'neuron'. For further information see [Virtual Environments](#virtual-environments).
 
    Ensure make sure to navigate back to the main directory after step 3 above
 
