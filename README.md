@@ -33,7 +33,7 @@ In brief:
 
 * YAML Environment File: The file environment.yml is a YAML file commonly used in Conda
 
-This file specifies the dependencies and settings for a particular virtual environment.
+  This file specifies the dependencies and settings for a particular virtual environment.
 
 * Environment Name - name Key: In the environment.yml file, there is a key called name.
 
