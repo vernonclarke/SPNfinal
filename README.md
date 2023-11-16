@@ -219,8 +219,6 @@ It's ideal for those who prefer an out-of-the-box setup for data science and sci
 
 It's suitable for users who want to have a lightweight base to start with and prefer to install packages as needed.
 
-**Choosing Between Anaconda and Miniconda**
-
 **Advantages of Anaconda**:
 
 - Quick, easy setup with a comprehensive suite of scientific packages and tools.
