@@ -201,7 +201,7 @@ In brief:
 
   to refer to the environment when activating it or installing additional packages into it.
 
-* **Creating the Environment**: When the command 'conda env create -f environment.yml' is executed (see later)
+* **Creating the Environment**: When the command 'conda env create -f environment.yml' is executed
 
   Conda reads the environment.yml file and creates a new environment based on the specifications in that file.
 
