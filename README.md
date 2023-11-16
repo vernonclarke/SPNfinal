@@ -160,7 +160,7 @@ The following sections explain the inital set up required and instructions to cr
 
    Ensure kernel is set to Python 3 (ipykernel)
 
-   From kernel dropdown menu choose 'Restart Run All' (if running again then it's good practice to run 'Restart and Clear Output' first)
+   From kernel dropdown menu choose `Restart Run All` (if running again then it's good practice to run `Restart and Clear Output` first)
 
    Code should run and generate raw data used to generate figures
 
