@@ -173,7 +173,9 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
 
 ### Graphs and analysis
 
-The final analysis and figures used in the ms were made using R (R version 4.3.1 (2023-06-16) -- "Beagle Scouts")
+The final analysis and figures used in the ms were made using R:
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
 
     R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
 
@@ -198,5 +200,9 @@ On Windows:
     path <- paste0('C:\\Users\\YourUsername\\Documents\\GitHub\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
 
 This line should be the only one that it is necessary to change in order to execute the R code.
+
+Any queries should be directed to:
+
+vernon.clarke@northwestern.edu
    
 
