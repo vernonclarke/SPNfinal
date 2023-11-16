@@ -28,7 +28,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 ### Steps
 1. **Install [conda](https://docs.conda.io/projects/conda/en/stable/)**
    
-   [Setting up Conda (python package manager)](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+   [Setting up Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) (python package manager)]
 
    Installing Conda should include a version of Python.
 
