@@ -30,15 +30,19 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
    
    [Setting up Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) (python package manager)]
 
-   Installing Conda should include a version of Python.
+   Installing Conda should include a version of Python. 
 
    Conda is simply a package manager and environment management system that is used to install, run, and update packages and their dependencies.
 
-2. **Install [Jupyter Notebook](https://jupyter.org)**
+   Miniconda is a lightweight option that includes Conda and Python, but not the additional packages that come with Anaconda.
 
-   [Setting up Jupyter Notebook](https://jupyter.org/install)
+3. **Install [Jupyter Notebook](https://jupyter.org)**
 
-3. **Install [NEURON](https://www.neuron.yale.edu)**
+   The simplest method is to install Jupyter Notebook via Conda using the command in Terminal: `conda install -c conda-forge notebook`
+
+   [For further info](https://jupyter.org)
+
+5. **Install [NEURON](https://www.neuron.yale.edu)**
 
   Follow the guide at [NEURON Installation](https://www.neuron.yale.edu/neuron/download)
 
