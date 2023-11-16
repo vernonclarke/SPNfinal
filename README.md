@@ -30,6 +30,10 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
    
    [Setting up Conda (python package manager)](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 
+   Installing Conda should include a version of Python.
+
+   Conda is simply a package manager and environment management system that is used to install, run, and update packages and their dependencies.
+
 2. **Install [Jupyter Notebook](https://jupyter.org)**
 
    [Setting up Jupyter Notebook](https://jupyter.org/install)
