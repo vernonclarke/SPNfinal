@@ -26,15 +26,15 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 - Python (tested using version 3.9.16)
 
 ### Steps
-1. **Install conda**
-
+1. **Install [conda](https://docs.conda.io/projects/conda/en/stable/)**
    [Setting up Conda (python package manager)](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 
-2. **Install Jupyter Notebook**
+
+2. **Install [Jupyter Notebook](https://jupyter.org)**
 
    [Setting up Jupyter Notebook](https://jupyter.org/install)
 
-3. **Install NEURON**:
+4. **Install NEURON**:
 
   Follow the guide at [NEURON Installation](https://www.neuron.yale.edu/neuron/download)
 
@@ -42,7 +42,6 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 * [(Old) Mac instructions](https://www.neuron.yale.edu/ftp/neuron/nrn_mac_install.pdf)
   
-
 4. **Install Python**:
 
   Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html)
