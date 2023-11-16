@@ -189,9 +189,13 @@ The R code to analyse the output from Fig5_EF.ipynb is found in Fig5_EF.R in the
 
 In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line
 
-On MacOS/Linux: **path <- paste0('/Documents/GitHub/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')**
+On MacOS/Linux: 
+    
+    path <- paste0('/Documents/GitHub/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
 
-On Windows: **path <- paste0('C:\\Users\\YourUsername\\Documents\\GitHub\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')**
+On Windows: 
+    
+    path <- paste0('C:\\Users\\YourUsername\\Documents\\GitHub\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
 
 This line should be the only one that it is necessary to change in order to execute the R code.
    
