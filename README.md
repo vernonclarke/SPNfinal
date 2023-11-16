@@ -230,7 +230,7 @@ It's suitable for users who want to have a lightweight base to start with and pr
 
 **Advantages of Miniconda**::
 
--Lightweight, minimal base installation.
+- Lightweight, minimal base installation.
 - Control over which packages are installed.
 - Requires limited disk space or bandwidth.
 - Clean environment that only includes packages required
