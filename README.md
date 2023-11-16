@@ -50,6 +50,8 @@ Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/
 
 ## Running the Models
 
+The following sections explain the inital set up required and instructions to create the simulations used to create the figures found in the ms
+
 ### Getting Started
 
 1. **Install NEURON with python support** (see setup instructions)
