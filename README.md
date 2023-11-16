@@ -25,6 +25,8 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 ### Prerequisites
 - Conda [Conda offical website](https://docs.conda.io/projects/conda/en/stable)
 - NEURON (tested on versions 8.1 and 8.2) [NEURON official website](https://www.neuron.yale.edu)
+
+  [Hines ML, Carnevale NT. The NEURON Simulation Environment. Neural Comput. 1997](https://doi:10.1162/neco.1997.9.6.1179)
 - Python (tested using version 3.9.16)
 
 ### Steps
@@ -47,6 +49,8 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
    [For further info](https://jupyter.org)
 
 5. **Install [NEURON](https://www.neuron.yale.edu)**
+
+   doi:10.1162/neco.1997.9.6.1179
 
   Follow the guide at [NEURON Installation](https://www.neuron.yale.edu/neuron/download)
 
