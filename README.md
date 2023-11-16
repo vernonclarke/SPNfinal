@@ -144,7 +144,7 @@ The following sections explain the inital set up required and instructions to cr
 
    Code should run and generate raw data used to generate figures
 
-   If option **save = True** in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
+   If option `save = True` in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
 
 
 ## Data Analysis
@@ -155,13 +155,13 @@ The following sections explain the inital set up required and instructions to cr
 
   Refer to the 'R analysis' directory for the code.
 
-  Each simulation has a unique identifier; for instance, Fig5_EF.ipynb is sim4. 
+  Each simulation has a unique identifier; for instance, `Fig5_EF.ipynb` is `sim4`. 
   
-  Once the Jupyter Notebook is executed with save = True, the outputs are stored automatically. 
+  Once the Jupyter Notebook is executed with `save = True`, the outputs are stored automatically. 
   
-  In this case, raw trace data is stored as pickled files in the subdirectory dspn/model1/physiological/simulations/sim4. 
+  In this case, raw trace data is stored as pickled files in the subdirectory `dspn/model1/physiological/simulations/sim4`. 
   
-  Any images generated are found in dspn/model1/physiological/images/sim4. 
+  Any images generated are found in `dspn/model1/physiological/images/sim4`. 
   
   The R code to analyse the output from Fig5_EF.ipynb is found in Fig5_EF.R in the 'R analysis' directory. 
   
