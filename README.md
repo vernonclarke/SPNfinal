@@ -7,7 +7,7 @@ It is built on top of the 'striatal_SPN_lib' repository created by Lindroos and 
 [Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020](https://doi.org/10.1111/ejn.14891)
 
 
-The original model can be found here: [modelDB](https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2) or [GitHub](https://github.com/ModelDBRepository/266775)
+The original model can be found here [modelDB](https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2) or [GitHub](https://github.com/ModelDBRepository/266775)
 
 ## Table of Contents
 - [Installation](#installation)
