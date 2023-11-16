@@ -90,7 +90,7 @@ The following sections explain the inital set up required and instructions to cr
 
 5. **Create a conda environment**
 
-   There is a yaml file in the main directory called environment.yml. This can be used to create a conda environment called 'neuron'. For further information see [Virtual Environments](#virtual-environments).
+   There is a yaml file in the main directory called `environment.yml`. This can be used to create a conda environment called `neuron`. For further information see [Virtual Environments](#virtual-environments).
 
    Ensure make sure to navigate back to the main directory after step 3 above
 
