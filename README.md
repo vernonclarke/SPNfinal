@@ -163,7 +163,7 @@ The following sections explain the inital set up required and instructions to cr
   
   Any images generated are found in `dspn/model1/physiological/images/sim4`. 
   
-  The R code to analyse the output from Fig5_EF.ipynb is found in Fig5_EF.R in the 'R analysis' directory. 
+  The R code to analyse the output from `Fig5_EF.ipynb` is found in `Fig5_EF.R` in the `R analysis` directory. 
   
   In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line:
 
