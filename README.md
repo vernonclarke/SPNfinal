@@ -11,10 +11,17 @@ This repository contains a NEURON model of striatal projection neurons built on 
 
 [doi:10.1111/ejn.14891](https://doi.org/10.1111/ejn.14891)
 
+This model can be found here:
 
-### NEURON
+https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2)
 
-* The models are built in NEURON+python: https://www.neuron.yale.edu
+or
+
+https://github.com/ModelDBRepository/266775
+
+### NEURON and Python
+
+* The models are built in NEURON+Python: https://www.neuron.yale.edu
 
   (tested on version 8.1 and 8.2)
 
@@ -26,43 +33,6 @@ This repository contains a NEURON model of striatal projection neurons built on 
 
 * Install Python: https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html
 
-
-### Virtual Environments
-
-There is a yaml environment file ('environment.yml') that is set to work with NEURON 8.2.1 and python 3.9.16 (name 'neuron'). 
-
-In brief:     
-
-* **YAML Environment File**: The file environment.yml is a YAML file commonly used in Conda
-
-  This file specifies the dependencies and settings for a particular virtual environment.
-
-* **Environment Name** - name Key: In the environment.yml file, there is a key called name.
-
-  The value associated with this key is the name of the Conda environment to be created.
-
-  In this case, this name is 'neuron'. This is the name that will subsequently be used
-
-  to refer to the environment when activating it or installing additional packages into it.
-
-* **Creating the Environment**: When the command 'conda env create -f environment.yml' is executed (see later)
-
-  Conda reads the environment.yml file and creates a new environment based on the specifications in that file.
-
-  The environment will have the name given by the name key in the YAML file i.e. 'neuron'.
-
-* For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
-
-* For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
-
-
-### Github
-
-If you are unfamiliar with Github, the desktop app is a useful interface to use.
-
-* For installing Github Desktop GUI: https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
-
-* Cloning a repository using Github Desktop: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop
 
 ### Running the models
 
@@ -100,6 +70,8 @@ The following steps 1-6 must be run once prior to running the code in Jupyter No
    There is a yaml file in the main directory called environment.yml.
 
    This can be used to create a conda environment called 'neuron'
+
+   See notes below **Virtual Environments**
 
    Ensure make sure to navigate back to the main directory after step 3 above
 
@@ -200,6 +172,47 @@ On Windows:
     path <- paste0('C:\\Users\\YourUsername\\Documents\\GitHub\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
 
 This line should be the only one that it is necessary to change in order to execute the R code.
+
+
+
+### Virtual Environments
+
+There is a yaml environment file ('environment.yml') that is set to work with NEURON 8.2.1 and python 3.9.16 (name 'neuron'). 
+
+In brief:     
+
+* **YAML Environment File**: The file environment.yml is a YAML file commonly used in Conda
+
+  This file specifies the dependencies and settings for a particular virtual environment.
+
+* **Environment Name** - name Key: In the environment.yml file, there is a key called name.
+
+  The value associated with this key is the name of the Conda environment to be created.
+
+  In this case, this name is 'neuron'. This is the name that will subsequently be used
+
+  to refer to the environment when activating it or installing additional packages into it.
+
+* **Creating the Environment**: When the command 'conda env create -f environment.yml' is executed (see later)
+
+  Conda reads the environment.yml file and creates a new environment based on the specifications in that file.
+
+  The environment will have the name given by the name key in the YAML file i.e. 'neuron'.
+
+* For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+
+* For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
+
+
+### Github
+
+If you are unfamiliar with Github, the desktop app is a useful interface to use.
+
+* For installing Github Desktop GUI: https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+
+* Cloning a repository using Github Desktop: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop
+
+
 
 Any queries should be directed to:
 
