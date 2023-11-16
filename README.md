@@ -35,7 +35,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
    Conda is simply a package manager and environment management system that is used to install, run, and update packages and their dependencies.
 
-   Either install Anaconda or Miniconda is a lightweight option that includes Conda and Python, but not the additional packages that come with Anaconda.
+   Whether to install [Anaconda or Miniconda](#anaconda-vs-miniconda) largely depends on personal preferences.
 
 3. **Install [Jupyter Notebook](https://jupyter.org)**
 
@@ -203,9 +203,7 @@ The following sections explain the inital set up required and instructions to cr
 
 Anaconda and Miniconda are both popular distributions for Python and R programming in data science. They include the Conda package manager and aim to simplify package management and deployment.
 
-**Anaconda**
-
-Anaconda is a full-featured distribution that includes:
+**Anaconda** is a full-featured distribution that includes:
 
 - Python and R language
 - Conda package manager
@@ -214,9 +212,7 @@ Anaconda is a full-featured distribution that includes:
 
 It's ideal for those who prefer an out-of-the-box setup for data science and scientific computing.
 
-**Miniconda**
-
-Miniconda offers a minimalistic approach:
+**Miniconda** offers a minimalistic approach:
 
 - Python or R language
 - Conda package manager
