@@ -28,7 +28,7 @@ The original model can be found here: [modelDB](https://senselab.med.yale.edu/Mo
 ### Steps
 1. **Install NEURON**:
 
-Download from [NEURON official website](https://www.neuron.yale.edu/neuron/download)
+  Download from [NEURON official website](https://www.neuron.yale.edu/neuron/download)
 
 * Quickstart: https://www.neuron.yale.edu/ftp/neuron/2019umn/neuron-quickstart.pdf
 
@@ -37,12 +37,12 @@ Download from [NEURON official website](https://www.neuron.yale.edu/neuron/downl
 
 2. **Install Python**:
 
-Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html)
+  Follow the guide at [Python Installation](https://python-docs.readthedocs.io/en/latest/starting/install3/osx.html)
 
 
 ## Running the Models
 
-The following sections explain the inital set up required and instructions to create simulations subsequently used to generate figures.
+  The following sections explain the inital set up required and instructions to create simulations subsequently used to generate figures.
 
 ### Getting Started
 
@@ -106,7 +106,7 @@ The following sections explain the inital set up required and instructions to cr
    
 ### Running simulations in Jupyter Notebook
 
-The following steps 1-4 must be every time a new Jupyter Notebook session is started
+  The following steps 1-4 must be every time a new Jupyter Notebook session is started
 
 1. **Open Terminal**:
    - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
@@ -154,31 +154,23 @@ The following steps 1-4 must be every time a new Jupyter Notebook session is sta
 
 ## Data Analysis
 
-The final analysis and figures used in the manuscript were made using R:
-- R version 4.3.1 – "Beagle Scouts"
-- [R Statistical Software](https://www.R-project.org/)
+  The final analysis and figures used in the manuscript were made using R:
+  - R version 4.3.1 – "Beagle Scouts"
+  - [R Statistical Software](https://www.R-project.org/)
 
-Refer to the 'R analysis' directory for the code.
+  Refer to the 'R analysis' directory for the code.
 
-Each simulation has a unique identifier; for instance, Fig5_EF.ipynb is sim4. 
+  Each simulation has a unique identifier; for instance, Fig5_EF.ipynb is sim4. Once the Jupyter Notebook is executed with save = True, the outputs are stored automatically. In this case, raw trace data is stored as pickled files in the subdirectory dspn/model1/physiological/simulations/sim4; any images generated are found in dspn/model1/physiological/images/sim4. The R code to analyse the output from Fig5_EF.ipynb is found in Fig5_EF.R in the 'R analysis' directory. In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line:
 
-Once the Jupyter Notebook is executed with save = True, the outputs are stored automatically. 
-
-In this case, raw trace data is stored as pickled files in the subdirectory dspn/model1/physiological/simulations/sim4; any images generated are found in dspn/model1/physiological/images/sim4
-
-The R code to analyse the output from Fig5_EF.ipynb is found in Fig5_EF.R in the 'R analysis' directory.
-
-In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line
-
-On MacOS/Linux: 
+  On MacOS/Linux: 
     
     path <- paste0('/Documents/GitHub/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
 
-On Windows: 
+  On Windows: 
     
     path <- paste0('C:\\Users\\YourUsername\\Documents\\GitHub\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
 
-This line should be the only one that it is necessary to change in order to execute the R code.
+  This line should be the only one that it is necessary to change in order to execute the R code.
 
 
 ## Virtual Environments
