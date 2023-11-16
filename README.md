@@ -10,7 +10,7 @@ It is built on top of the 'striatal_SPN_lib' repository created by Lindroos and 
 The original model can be found here [modelDB](https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2) or [GitHub](https://github.com/ModelDBRepository/266775)
 
 ## Table of Contents
-- [Installation](#installation)
+- [Initial Set Up](#Initial-Set-Up)
 - [Running the Models](#running-the-models)
   - [Getting Started](#getting-started)
   - [Simulations](#running-simulations-in-jupyter-notebook)
@@ -20,9 +20,10 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 - [GitHub](#using-github)
 - [Contact](#contact)
 
-## Installation
+## Initial Set Up
 
 ### Prerequisites
+- Conda [Conda offical website](https://docs.conda.io/projects/conda/en/stable)
 - NEURON (tested on versions 8.1 and 8.2) [NEURON official website](https://www.neuron.yale.edu)
 - Python (tested using version 3.9.16)
 
