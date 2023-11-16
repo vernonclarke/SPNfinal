@@ -191,7 +191,7 @@ This line should be the only one that it is necessary to change in order to exec
 
 ## Virtual Environments
 
-The `environment.yml` file is configured for NEURON 8.2.1 and Python 3.9.16. Use this file to create a consistent environment for running the models.
+The `environment.yml` file is configured for NEURON 8.2.2 and Python 3.9.16. Use this file to create a consistent environment for running the models.
 
 In brief:     
 
