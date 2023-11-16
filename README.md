@@ -153,7 +153,7 @@ The following sections explain the inital set up required and instructions to cr
   - R version 4.3.1 – "Beagle Scouts"
   - [R Statistical Software](https://www.R-project.org/)
 
-  Refer to the 'R analysis' directory for the code.
+  Refer to the `R analysis` directory for the code.
 
   Each simulation has a unique identifier; for instance, `Fig5_EF.ipynb` is `sim4`. 
   
