@@ -45,7 +45,7 @@ The following sections explain the inital set up required and instructions to cr
 
 ### Getting Started
 
-1. **Install NEURON with python support** (see setup instructions)
+1. **Install NEURON with Python support** (see setup instructions)
 
 2. **Open Terminal**:
    - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
@@ -202,9 +202,9 @@ In brief:
 
   The environment will have the name given by the name key in the YAML file i.e. `neuron`.
 
-* For setting up Conda (python package manager): https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+* [Setting up Conda (python package manager)](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 
-* For setting up Jupyter Notebook (interactive code notebooks): https://jupyter.org/install
+* [Setting up Jupyter Notebook](https://jupyter.org/install)
   
 
 ## GitHub
