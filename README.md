@@ -15,7 +15,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
   - [Getting Started](#getting-started)
   - [Simulations](#running-simulations-in-jupyter-notebook)
 - [Data Analysis](#data-analysis)
-- [Anaconda vs Miniconda](#anaconda_vs_miniconda)
+- [Anaconda vs Miniconda](#anaconda-vs-miniconda)
 - [Virtual Environments](#virtual-environments)
 - [GitHub](#using-github)
 - [Contact](#contact)
