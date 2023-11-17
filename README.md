@@ -171,19 +171,19 @@ The following sections explain the inital set up required and instructions to cr
 
 ## Data Analysis
 
-The final analysis and figures used in the manuscript were made using R:
+The final analysis and figures presented in the manuscript were generated using R. The analyses were conducted in the R graphical user interface (GUI):
   - R version 4.3.1 – "Beagle Scouts"
   - [R Statistical Software](https://www.R-project.org/)
 
   Refer to the `R analysis` directory for the code.
 
-In order for the R code to work, it is necessary to load various packages within the R environment.
-
-The following code is presence at the beginning of each analyisi file provided.
-
-It checks if required packages are present and, if they are not, then it installs them.
-
-In addition, the first time the code is executed, it will install a Miniconda environment using the reticulate package in R: 
+  In order for the R code to work, it is necessary to load various packages within the R environment.
+  
+  The following code is presence at the beginning of each analyis file provided.
+  
+  It checks if required packages are present and, if they are not, then it installs them.
+  
+  In addition, the first time the code is executed, it will install a Miniconda environment using the reticulate package in R: 
 
   ```R
   rm( list=ls(all=TRUE ) )
@@ -215,7 +215,6 @@ In addition, the first time the code is executed, it will install a Miniconda en
   # Import pandas
   pd <- reticulate::import("pandas")
   ```
-
   **This code has already been encorporated into each analysis file and will be executed the first time any of the R analysis files are run**
 
   
