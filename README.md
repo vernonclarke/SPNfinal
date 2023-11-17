@@ -17,7 +17,8 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 - [Data Analysis](#data-analysis)
 - [Anaconda vs Miniconda](#anaconda-vs-miniconda)
 - [Virtual Environments](#virtual-environments)
-- [GitHub](#using-github)
+- [GitHub](#using-github)\
+- [References](#references)
 - [Contact](#contact)
 
 ## Initial Set Up
@@ -283,6 +284,8 @@ In brief:
 For beginners, the [GitHub Desktop GUI](https://desktop.github.com/) is recommended. 
 
 Instructions for cloning a repository using GitHub Desktop can be found [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
+
+## References
 
 ## Contact
 
