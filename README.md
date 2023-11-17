@@ -289,7 +289,7 @@ Instructions for cloning a repository using GitHub Desktop can be found [here](h
 
 [Du K, Wu Y-W, Lindroos R, Liu Y, Rózsa B, Katona G, et al. Cell-type–specific inhibition of the dendritic plateau potential in striatal spiny projection neurons. Proceedings of the National Academy of Sciences. 2017;114: E7612 E7621](https://doi.org/10.1073/pnas.1704893114)
 
-[Hines ML, Carnevale NT. The NEURON Simulation Environment. Neural Comput. 1997;9: 1179–1209](https://doi:10.1162/neco.1997.9.6.1179)
+[Hines ML, Carnevale NT. The NEURON Simulation Environment. Neural Comput. 1997;9: 1179–1209](https://doi.org/10.1162/neco.1997.9.6.1179)
 
 [Lindroos R, Dorst MC, Du K, Filipović M, Keller D, Ketzef M, et al. Basal Ganglia Neuromodulation Over Multiple Temporal and Structural Scales-Simulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects and Predict the Role of Kv4.2. Frontiers in neural circuits. 2018;12: 3](https://doi:10.3389/fncir.2018.00003) 
 
