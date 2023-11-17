@@ -84,13 +84,13 @@ The following sections explain the inital set up required and instructions to cr
 
    On MacOS / Linux:
    ```bash
-   cd documents/SPNfinal/mechanisms/single
+   cd documents/Repositories/SPNfinal/mechanisms/single
    nrnivmodl
    ```
 
    On Windows:
    ```bash
-   cd C:\Users\YourUsername\documents\SPNfinal\mechanisms\single
+   cd C:\Users\YourUsername\documents\Repositories\SPNfinal\mechanisms\single
    nrnivmodl
    ```
 
@@ -136,13 +136,13 @@ The following sections explain the inital set up required and instructions to cr
 
    On MacOS / Linux:
    ```bash
-   cd documents/SPNfinal
+   cd documents/Repositories/SPNfinal
    conda activate neuron
    ```
 
    On Windows:
    ```bash
-   cd C:\Users\YourUsername\documents\SPNfinal
+   cd C:\Users\YourUsername\Repositories\documents\SPNfinal
    conda activate neuron
    ```
 4. **Run Jupyter notebook**
