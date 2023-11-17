@@ -171,6 +171,12 @@ The following sections explain the inital set up required and instructions to cr
 
 ## Data Analysis
 
+The final analysis and figures used in the manuscript were made using R:
+  - R version 4.3.1 – "Beagle Scouts"
+  - [R Statistical Software](https://www.R-project.org/)
+
+  Refer to the `R analysis` directory for the code.
+
 In order for the R code to work, it is necessary to load various packages within the R environment.
 
 The following code is presence at the beginning of each analyisi file provided.
@@ -210,15 +216,9 @@ In addition, the first time the code is executed, it will install a Miniconda en
   pd <- reticulate::import("pandas")
   ```
 
-  This code has been encorporated into each analysis file and will be executed the first time any of the R analysis files are run.
+  **This code has already been encorporated into each analysis file and will be executed the first time any of the R analysis files are run**
 
-
-  The final analysis and figures used in the manuscript were made using R:
-  - R version 4.3.1 – "Beagle Scouts"
-  - [R Statistical Software](https://www.R-project.org/)
-
-  Refer to the `R analysis` directory for the code.
-
+  
   Each simulation has a unique identifier; for instance, `Fig5_EF.ipynb` is `sim4`. 
   
   Once the Jupyter Notebook is executed with `save = True`, the outputs are stored automatically. 
