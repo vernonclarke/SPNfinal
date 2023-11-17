@@ -171,24 +171,43 @@ The following sections explain the inital set up required and instructions to cr
 
 ## Data Analysis
 
-In order for the R code to work, it is necessary to install a Miniconda environment through reticulate in R: 
+In order for the R code to work, it is necessary to load various packages within the R environment.
+
+The following code is presence at the beginning of each analyisi file provided.
+
+It checks if required packages are present and, if they are not, then it installs them.
+
+In addition, the first time the code is executed, it will install a Miniconda environment using the reticulate package in R: 
 
   ```R
-  # Install Miniconda through Reticulate (if Miniconda is not already installed)
-  reticulate::install_miniconda()
+  rm( list=ls(all=TRUE ) )
+  # Load and install necessary packages
+  load_required_packages <- function(packages){
+      new.packages <- packages[!(packages %in% installed.packages()[,"Package"])]
+      if(length(new.packages)) install.packages(new.packages)
+      invisible(lapply(packages, library, character.only = TRUE))
+  }
   
-  # Load the reticulate library
-  library(reticulate)
+  required.packages <- c('reticulate', 'stringr', 'svglite', 'quantmod', 'xts', 'zoo')
+  load_required_packages(required.packages)
   
-  # Create and activate a new Conda environment
-  conda_create(envname = "myenv")
-  use_condaenv("myenv", required = TRUE)
+  # Install miniconda if necessary
+  if (!reticulate::py_available(initialize = TRUE)) {
+      # Install Miniconda through Reticulate (if Miniconda is not already installed)
+      reticulate::install_miniconda()
   
-  # Install pandas in the new environment
-  py_install("pandas", envname = "myenv")
+      # Load the reticulate library
+      library(reticulate)
   
+      # Create and activate a new Conda environment
+      conda_create(envname = "myenv")
+      use_condaenv("myenv", required = TRUE)
+  
+      # Install pandas in the new environment
+      py_install("pandas", envname = "myenv")
+  }  
   # Import pandas
-  pd <- import("pandas")
+  pd <- reticulate::import("pandas")
   ```
 
   This code has been encorporated into each analysis file and will be executed the first time any of the R analysis files are run.
