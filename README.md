@@ -187,21 +187,17 @@ The following sections explain the inital set up required and instructions to cr
   
   The R code to analyse the output from `Fig5_EF.ipynb` is found in `Fig5_EF.R` in the `R analysis` directory. 
   
-  In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line:
+  In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line (depending on where the original directory was created):
 
   On MacOS/Linux: 
     
-    path <- paste0('/Documents/GitHub/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
+    path <- paste0('/Documents/Repositories/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
 
   On Windows: 
     
-    path <- paste0('C:\\Users\\YourUsername\\Documents\\GitHub\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
+    path <- paste0('C:\\Users\\YourUsername\\Documents\\Repositories\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
 
   This line should be the only one that it is necessary to change in order to execute the R code.
-
-
-
-
 
 
 ## Anaconda vs Miniconda
@@ -251,8 +247,6 @@ Follow the installation instructions provided on the respective download pages.
 - [Conda Package Management](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html)
 
 
-
-
 ## Virtual Environments
 
 The `environment.yml` file is configured for NEURON 8.2.2 and Python 3.9.16. Use this file to create a consistent environment for running the models.
@@ -276,7 +270,6 @@ In brief:
   Conda reads the `environment.yml` file and creates a new environment based on the specifications in that file.
 
   The environment will have the name given by the name key in the YAML file i.e. `neuron`.
-
   
 
 ## GitHub
@@ -294,7 +287,6 @@ Instructions for cloning a repository using GitHub Desktop can be found [here](h
 [Lindroos R, Dorst MC, Du K, Filipović M, Keller D, Ketzef M, et al. Basal Ganglia Neuromodulation Over Multiple Temporal and Structural Scales-Simulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects and Predict the Role of Kv4.2. Frontiers in neural circuits. 2018;12: 3](https://doi.org/10.3389/fncir.2018.00003) 
 
 [Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020](https://doi.org/10.1111/ejn.14891)
-
 
 
 
