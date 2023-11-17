@@ -287,7 +287,7 @@ Instructions for cloning a repository using GitHub Desktop can be found [here](h
 
 ## References
 
-[Du K, Wu Y-W, Lindroos R, Liu Y, Rózsa B, Katona G, et al. Cell-type–specific inhibition of the dendritic plateau potential in striatal spiny projection neurons. Proceedings of the National Academy of Sciences. 2017;114: E7612 E7621](https://doi:10.1073/pnas.1704893114 )
+[Du K, Wu Y-W, Lindroos R, Liu Y, Rózsa B, Katona G, et al. Cell-type–specific inhibition of the dendritic plateau potential in striatal spiny projection neurons. Proceedings of the National Academy of Sciences. 2017;114: E7612 E7621](https://doi.org/10.1073/pnas.1704893114)
 
 [Hines ML, Carnevale NT. The NEURON Simulation Environment. Neural Comput. 1997;9: 1179–1209](https://doi:10.1162/neco.1997.9.6.1179)
 
