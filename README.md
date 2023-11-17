@@ -171,7 +171,9 @@ The following sections explain the inital set up required and instructions to cr
 
 ## Data Analysis
 
-The final analysis and figures presented in the manuscript were generated using R. The analyses were conducted in the R graphical user interface (GUI):
+The final analysis and figures presented in the manuscript were generated using R. 
+
+The analyses were conducted in the R graphical user interface (GUI):
   - R version 4.3.1 – "Beagle Scouts"
   - [R Statistical Software](https://www.R-project.org/)
 
