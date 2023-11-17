@@ -171,6 +171,29 @@ The following sections explain the inital set up required and instructions to cr
 
 ## Data Analysis
 
+  In order for the R code to work, it is necessary to install a Miniconda environment through reticulate in R: 
+
+  ```R
+  # Install Miniconda through Reticulate (if Miniconda is not already installed)
+  reticulate::install_miniconda()
+  
+  # Load the reticulate library
+  library(reticulate)
+  
+  # Create and activate a new Conda environment
+  conda_create(envname = "myenv")
+  use_condaenv("myenv", required = TRUE)
+  
+  # Install pandas in the new environment
+  py_install("pandas", envname = "myenv")
+  
+  # Import pandas
+  pd <- import("pandas")
+  ```
+
+  This code has been encorporated into each analysis file and will be executed the first time any of the R analysis files are run.
+
+
   The final analysis and figures used in the manuscript were made using R:
   - R version 4.3.1 – "Beagle Scouts"
   - [R Statistical Software](https://www.R-project.org/)
