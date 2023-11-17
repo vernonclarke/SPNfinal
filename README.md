@@ -291,7 +291,7 @@ Instructions for cloning a repository using GitHub Desktop can be found [here](h
 
 [Hines ML, Carnevale NT. The NEURON Simulation Environment. Neural Comput. 1997;9: 1179–1209](https://doi.org/10.1162/neco.1997.9.6.1179)
 
-[Lindroos R, Dorst MC, Du K, Filipović M, Keller D, Ketzef M, et al. Basal Ganglia Neuromodulation Over Multiple Temporal and Structural Scales-Simulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects and Predict the Role of Kv4.2. Frontiers in neural circuits. 2018;12: 3](https://doi:10.3389/fncir.2018.00003) 
+[Lindroos R, Dorst MC, Du K, Filipović M, Keller D, Ketzef M, et al. Basal Ganglia Neuromodulation Over Multiple Temporal and Structural Scales-Simulations of Direct Pathway MSNs Investigate the Fast Onset of Dopaminergic Effects and Predict the Role of Kv4.2. Frontiers in neural circuits. 2018;12: 3](https://doi.org/10.3389/fncir.2018.00003) 
 
 [Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020](https://doi.org/10.1111/ejn.14891)
 
