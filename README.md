@@ -2,10 +2,11 @@
 
 This repository contains a NEURON model of striatal projection neurons (or SPNs) designed to simulate the interaction between GABAergic and glutamatergic synaptic inputs. 
 
-It is built on top of the 'striatal_SPN_lib' repository created by Lindroos and Kotaleski, 2020:
+It also provides all the R code used to produce the graph output (as svg) from the resultant NEURON + Python output. 
+
+The NEURON + Python model is built on top of the 'striatal_SPN_lib' repository created by Lindroos and Kotaleski, 2020:
 
 [Lindroos R, Kotaleski JH. Predicting complex spikes in striatal projection neurons of the direct pathway following neuromodulation by acetylcholine and dopamine. Eur J Neurosci. 2020](https://doi.org/10.1111/ejn.14891)
-
 
 The original model can be found here [modelDB](https://senselab.med.yale.edu/ModelDB/ShowModel?model=266775&file=/lib/params_dMSN.json#tabs-2) or [GitHub](https://github.com/ModelDBRepository/266775)
 
@@ -248,7 +249,6 @@ Follow the installation instructions provided on the respective download pages.
 - [Anaconda Documentation](https://docs.anaconda.com/)
 - [Miniconda Documentation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 - [Conda Package Management](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html)
-
 
 
 
