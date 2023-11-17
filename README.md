@@ -171,7 +171,7 @@ The following sections explain the inital set up required and instructions to cr
 
 ## Data Analysis
 
-  In order for the R code to work, it is necessary to install a Miniconda environment through reticulate in R: 
+In order for the R code to work, it is necessary to install a Miniconda environment through reticulate in R: 
 
   ```R
   # Install Miniconda through Reticulate (if Miniconda is not already installed)
