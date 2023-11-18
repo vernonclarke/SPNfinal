@@ -52,8 +52,6 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 5. **Install [NEURON](https://www.neuron.yale.edu)**
 
-   doi:10.1162/neco.1997.9.6.1179
-
   Follow the guide at [NEURON Installation](https://www.neuron.yale.edu/neuron/download)
 
 * [Quickstart](https://www.neuron.yale.edu/ftp/neuron/2019umn/neuron-quickstart.pdf)
