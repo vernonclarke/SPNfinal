@@ -259,15 +259,15 @@ Anaconda and Miniconda are both popular distributions for Python and R programmi
 - Over 1,500 pre-installed scientific packages
 - Tools like Jupyter Notebook, Spyder, etc.
 
-It's ideal for those who prefer an out-of-the-box setup for data science and scientific computing.
+Anaconda provides an out-of-the-box setup for data science and scientific computing.
 
 **Miniconda** offers a minimalistic approach:
 
-- Python or R language
+- Python and R language
 - Conda package manager
 - No pre-installed packages
 
-It's suitable for users who want to have a lightweight base to start with and prefer to install packages as needed.
+Miniconda provides a lightweight base to start with and but packages must be installed if needed.
 
 **Advantages of Anaconda**:
 
