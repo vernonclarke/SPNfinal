@@ -214,6 +214,7 @@ The analyses were conducted in the R graphical user interface (GUI):
       # Install pandas in the new environment
       py_install("pandas", envname = "myenv")
   }  
+
   # Import pandas
   pd <- reticulate::import("pandas")
   ```
