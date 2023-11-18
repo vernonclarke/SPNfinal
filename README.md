@@ -221,7 +221,7 @@ The analyses were conducted in the R graphical user interface (GUI):
   
   The first time the code is run, it will do the necessary installations and load the necessary packages for the analysis. 
   
-  Subsequent runs will simply load the required packages. A useful guide can be found [here](https://rstudio.github.io/reticulate/) 
+  Subsequent runs will simply load the required packages. A useful guide can be found [here](https://rstudio.github.io/reticulate/).
 
   
   Each simulation has a unique identifier; for instance, `Fig5_EF.ipynb` is `sim4`. 
