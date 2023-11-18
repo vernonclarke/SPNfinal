@@ -217,11 +217,11 @@ The analyses were conducted in the R graphical user interface (GUI):
   # Import pandas
   pd <- reticulate::import("pandas")
   ```
-  **This code has already been encorporated into each analysis file and will be executed when the R analysis files are run**
+  **This code has already been encorporated into each analysis file and will be executed when the R analysis files are run**.
   
   The first time the code is run, it will do the necessary installations and load the necessary packages for the analysis. 
   
-  Subsequent runs will simply load the required packages. 
+  Subsequent runs will simply load the required packages. A useful guide can be found [here](https://rstudio.github.io/reticulate/) 
 
   
   Each simulation has a unique identifier; for instance, `Fig5_EF.ipynb` is `sim4`. 
