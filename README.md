@@ -415,16 +415,20 @@ if (plotsave) {
   In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line (depending on where the original directory was created):
 
   On MacOS/Linux: 
-    ```R
-    path <- paste0('/Documents/Repositories/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
-    ```
+  
+  ```R
+  path <- paste0('/Documents/Repositories/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
+  ```
+ 
   On Windows: 
-    ```R
+  
+  ```R
     path <- paste0('C:\\Users\\YourUsername\\Documents\\Repositories\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
-    ```
+  ```
 
   If running code on MacOS/Linux, this line should be the only one that it is necessary to change in order to execute the R code.
-  On Windows, other lines would need to be altered
+  On Windows, other lines would need to be altered:
+  
   ```R
   # replace quartz.save(paste0('sim', sim, ' ', timestamp, '.pdf'), type='pdf')
   pdf(paste0('sim', sim, ' ', timestamp, '.pdf')) # replace quartz.save(paste0('sim', sim, ' ', timestamp, '.pdf'), type='pdf') 
