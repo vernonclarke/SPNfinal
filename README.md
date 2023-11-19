@@ -541,7 +541,7 @@ vernon.clarke@northwestern.edu
 clay-surmeier@northwestern.edu
 
 
-For queries related to this repository, please [open an issue](https://github.com/vernonclarke/SPNfinal/issues) or [email](vernon.clarke@northwestern.edu) directly 
+For queries related to this repository, please [open an issue](https://github.com/vernonclarke/SPNfinal/issues) or [email](mailto:vernon.clarke@northwestern.edu) directly 
 
 ---
 
