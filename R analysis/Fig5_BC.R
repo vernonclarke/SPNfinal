@@ -1,14 +1,17 @@
 rm( list=ls(all=TRUE ) )
-# Load required packages
-required.packages <- c('reticulate', 'stringr', 'svglite', 'quantmod', 'xts', 'zoo')
-new.packages <- required.packages[!(required.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
-lapply(required.packages, library, character.only=TRUE)
-# install miniconda if necessary
-if (!py_available(initialize = TRUE)) {
-	reticulate::install_miniconda()
+# Load and install necessary packages
+load_required_packages <- function(packages){
+    new.packages <- packages[!(packages %in% installed.packages()[,"Package"])]
+    if(length(new.packages)) install.packages(new.packages)
+    invisible(lapply(packages, library, character.only = TRUE))
 }
-pd <- import("pandas")
+
+required.packages <- c('reticulate', 'stringr', 'svglite', 'quantmod', 'xts', 'zoo')
+load_required_packages(required.packages)
+
+use_condaenv("myenv", required = TRUE)
+# Import pandas
+pd <- reticulate::import("pandas")
 
 # metadata
 spn <- 'dspn'
@@ -17,7 +20,7 @@ sim <- 13
 GABA <- 0 
 num_gluts <- 18
 XX = paste0('upstate vs distance with GABA_', GABA)
-path <- paste0('/Documents/GitHub/SPNfinal/dspn/model1/physiological/simulations/sim13/', XX)
+path <- paste0('/Documents/Repositories/SPNfinal/dspn/model1/physiological/simulations/sim13/', XX)
 
 # # Set working directory
 cd <- sub("/Documents.*", "", getwd())

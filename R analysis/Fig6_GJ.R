@@ -1,20 +1,16 @@
 rm( list=ls(all=TRUE ) )
 # Load and install necessary packages
 load_required_packages <- function(packages){
-	new.packages <- packages[!(packages %in% installed.packages()[,"Package"])]
-  	if (length(new.packages)) install.packages(new.packages)
-  	lapply(packages, library, character.only=TRUE)
+    new.packages <- packages[!(packages %in% installed.packages()[,"Package"])]
+    if(length(new.packages)) install.packages(new.packages)
+    invisible(lapply(packages, library, character.only = TRUE))
 }
 
 required.packages <- c('reticulate', 'stringr', 'svglite', 'quantmod', 'xts', 'zoo')
 load_required_packages(required.packages)
 
-# Install miniconda if necessary
-if (!reticulate::py_available(initialize = TRUE)) {
-  	reticulate::install_miniconda()
-}
-
-# Import necessary python modules
+use_condaenv("myenv", required = TRUE)
+# Import pandas
 pd <- reticulate::import("pandas")
 
 # Metadata settings
@@ -24,7 +20,7 @@ sim <- 12
 model <- 1
 nGlut<-15
 
-path <- paste0('/Documents/GitHub/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
+path <- paste0('/Documents/Repositories/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
 
 # Set working directory
 cd <- sub("/Documents.*", "", getwd())
