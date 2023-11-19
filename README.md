@@ -16,6 +16,8 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
   - [Getting Started](#getting-started)
   - [Simulations](#running-simulations-in-jupyter-notebook)
 - [Data Analysis](#data-analysis)
+  - [Setting up](setting-up)
+  - [Using R to analyse a simulation](using-r-to-analyse-a-simulation)
 - [Anaconda vs Miniconda](#anaconda-vs-miniconda)
 - [Virtual Environments](#virtual-environments)
 - [GitHub](#using-github)
@@ -252,7 +254,6 @@ The analyses were conducted in the R graphical user interface (GUI):
   required.packages <- c('reticulate', 'stringr', 'svglite', 'quantmod', 'xts', 'zoo')
   load_required_packages(required.packages)
   
-  
   use_condaenv("myenv", required = TRUE)
   # Import pandas
   pd <- reticulate::import("pandas")
@@ -410,10 +411,6 @@ if (plotsave) {
     setwd(wd)
 }
 ```
- 
- 
-  
-  
   
   In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line (depending on where the original directory was created):
 
@@ -425,7 +422,21 @@ if (plotsave) {
     
     path <- paste0('C:\\Users\\YourUsername\\Documents\\Repositories\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
 
-  This line should be the only one that it is necessary to change in order to execute the R code.
+  If running code on MacOS/Linux, this line should be the only one that it is necessary to change in order to execute the R code.
+  On Windows, other lines would need to be altered
+  ```R
+  # replace quartz.save(paste0('sim', sim, ' ', timestamp, '.pdf'), type='pdf')
+  pdf(paste0('sim', sim, ' ', timestamp, '.pdf')) # replace quartz.save(paste0('sim', sim, ' ', timestamp, '.pdf'), type='pdf') 
+  # ...plotting code...
+  dev.off()
+  ```
+ 
+  ### Key Points for Windows:
+  - The path should be changed to reflect the typical Windows file structure. Make sure to replace `YourUsername` with your actual username.
+  - File path separators are changed to `\\`.
+  - The script assumes the R working directory aligns with the structure of the path. Adjust as needed.
+  - Replace any macOS-specific functions (like `quartz.save`) with their Windows-compatible equivalents.
+  
 
 
 ## Anaconda vs Miniconda
