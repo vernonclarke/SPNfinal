@@ -78,9 +78,9 @@ The following sections explain the inital set up required and instructions to cr
 
    Navigate to directory containing NEURON mechanisms.
 
-   For instance if `SPNfinal` is in documents folder in OS, mechanisms are located in `cd/documents/SPNfinal/mechanisms/single`
+   For instance if `SPNfinal` is in documents folder in OS, mechanisms are located in `cd/documents/SPNfinal/mechanisms/single`.
 
-   Mechanisms are then compiled by entering `nrnivmodl` or `mknrndll`
+   Mechanisms are then compiled by entering `nrnivmodl` or `mknrndll`.
 
    On MacOS / Linux:
    ```bash
@@ -98,9 +98,9 @@ The following sections explain the inital set up required and instructions to cr
 
    There is a yaml file in the main directory called `environment.yml`. This can be used to create a conda environment called `neuron`. For further information see [Virtual Environments](#virtual-environments).
 
-   Ensure make sure to navigate back to the main directory after step 3 above
+   Ensure make sure to navigate back to the main directory after step 3 above.
 
-   Check installed correctly using 'conda list'
+   Check installed correctly using 'conda list'.
 
    On MacOS / Linux:
    ```bash
@@ -123,7 +123,7 @@ The following sections explain the inital set up required and instructions to cr
    
 ### Running simulations in Jupyter Notebook
 
-  The following steps 1-4 must be every time a new Jupyter Notebook session is started
+  The following steps 1-4 must be every time a new Jupyter Notebook session is started.
 
 1. **Open Terminal**:
    - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
@@ -156,17 +156,17 @@ The following sections explain the inital set up required and instructions to cr
 
 5. **Run a simulation**
 
-   Jupyter Notebook should be open in the default browser
+   Jupyter Notebook should be open in the default browser.
 
-   Choose a Notebook to open (by clicking on any notebook - *.ipynb)
+   Choose a Notebook to open (by clicking on any notebook - *.ipynb).
 
-   Ensure kernel is set to Python 3 (ipykernel)
+   Ensure kernel is set to Python 3 (ipykernel).
 
-   From kernel dropdown menu choose `Restart Run All` (if running again then it's good practice to run `Restart and Clear Output` first)
+   From kernel dropdown menu choose `Restart Run All` (if running again then it's good practice to run `Restart and Clear Output` first).
 
-   Code should run and generate raw data used to generate figures
+   Code should run and generate raw data used to generate figures.
 
-   If option `save = True` in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one
+   If option `save = True` in the Notebook then the raw figures and pickled data is stored in a subdirectory within the main one.
 
 
 ## Data Analysis
@@ -189,7 +189,7 @@ The analyses were conducted in the R graphical user interface (GUI):
   
   In addition, the first time the code is executed, it will install a Miniconda environment using the reticulate package in R: 
 
-  The following steps 1-3 must be performed once
+  The following steps 1-3 must be performed once.
   
   1. **Open R gui**
   2. **Run this code once**
