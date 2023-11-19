@@ -179,7 +179,7 @@ The analyses were conducted in the R graphical user interface (GUI):
 
   Refer to the `R analysis` directory for the code.
 
-  **Setting up**
+  ### Setting up
   
   In order for the R code to work, it is necessary to load various packages within the R environment.
   
@@ -226,7 +226,7 @@ The analyses were conducted in the R graphical user interface (GUI):
   
   A useful guide can be found [here](https://rstudio.github.io/reticulate/).
   
-  **Using R to analyse a simulation**
+  ### Using R to analyse a simulation
   
   To run the analysis code, simply execute all the code for that particular R analysis file after having run the relevant *.ipynb file.
   
@@ -415,12 +415,13 @@ if (plotsave) {
   In order to locate the raw data to recreate the final images for the ms it may be necessary to alter the line (depending on where the original directory was created):
 
   On MacOS/Linux: 
-    
+    ```R
     path <- paste0('/Documents/Repositories/SPNfinal/', spn, '/model', model, '/physiological/simulations/sim', sim,'/')
-
+    ```
   On Windows: 
-    
+    ```R
     path <- paste0('C:\\Users\\YourUsername\\Documents\\Repositories\\SPNfinal\\', spn, '\\model', model, '\\physiological\\simulations\\sim', sim, '\\')
+    ```
 
   If running code on MacOS/Linux, this line should be the only one that it is necessary to change in order to execute the R code.
   On Windows, other lines would need to be altered
@@ -436,8 +437,6 @@ if (plotsave) {
   - File path separators are changed to `\\`.
   - The script assumes the R working directory aligns with the structure of the path. Adjust as needed.
   - Replace any macOS-specific functions (like `quartz.save`) with their Windows-compatible equivalents.
-  
-
 
 ## Anaconda vs Miniconda
 
