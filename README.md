@@ -110,9 +110,9 @@ The following sections explain the inital set up required and instructions to cr
    ```
    On Windows:
 
-   Installing on Windows is slightly diiferent as NEURON cannot be installed initally via the terminal using 'pip install neuron'.
+   Installing on Windows is slightly diiferent as NEURON cannot be installed via the terminal using 'pip install neuron'.
 
-   Neuron must be installed via a downloaded setup.exe.
+   Instead, Neuron must be installed via a downloaded setup.exe.
 
    There is a separate 'environment_pc.yml' for Windows. Limited testing on a Windows laptop showed the simulations working.
 
