@@ -486,7 +486,7 @@ Miniconda provides a lightweight base to start with and but packages must be ins
 - Lightweight, minimal base installation.
 - Control over which packages are installed.
 - Requires limited disk space or bandwidth.
-- Clean environment that only includes packages required
+- Clean environment that only includes packages required.
 
 **Installation**
 
