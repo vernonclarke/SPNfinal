@@ -453,7 +453,7 @@ if (plotsave) {
   - The path should be changed to reflect the typical Windows file structure. Make sure to replace `YourUsername` with your actual username.
   - File path separators are changed to `\\`.
   - The script assumes the R working directory aligns with the structure of the path. Adjust as needed.
-  - Replace any macOS-specific functions (like `quartz.save`) with their Windows-compatible equivalents.
+  - Replace any MacOS-specific functions (like `quartz.save`) with their Windows-compatible equivalents.
 
 ## Anaconda vs Miniconda
 
@@ -508,7 +508,7 @@ The `environment.yml` file is configured for NEURON 8.2.2 and Python 3.9.16. Use
 
 In brief:     
 
-* **YAML Environment File**: The file `environment.yml` is a YAML file commonly used in Conda
+* **`YAML` Environment File**: The file `environment.yml` is a `YAML` file commonly used in Conda
 
   This file specifies the dependencies and settings for a particular virtual environment.
 
@@ -524,7 +524,7 @@ In brief:
 
   Conda reads the `environment.yml` file and creates a new environment based on the specifications in that file.
 
-  The environment will have the name given by the name key in the YAML file i.e. `neuron`.
+  The environment will have the name given by the name key in the `YAML` file i.e. `neuron`.
   
 
 ## GitHub
