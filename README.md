@@ -480,7 +480,7 @@ Miniconda provides a lightweight base to start with and but packages must be ins
 - Quick, easy setup with a comprehensive suite of scientific packages and tools.
 - Wide array of data science tools readily available within a single application.
 
-**Advantages of Miniconda**::
+**Advantages of Miniconda**:
 
 - Lightweight, minimal base installation.
 - Control over which packages are installed.
