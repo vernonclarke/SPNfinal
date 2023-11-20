@@ -63,7 +63,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 ## Running the Models
 
-The following sections explain the inital set up required and instructions to create simulations subsequently used to generate figures.
+The following sections explain the initial set up required and instructions to create simulations subsequently used to generate figures.
 
 ### Getting Started
 
