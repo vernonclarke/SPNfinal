@@ -108,12 +108,13 @@ The following sections explain the initial set up required and instructions to c
    conda env create -f environment.yml
    conda list
    ```
+
    On Windows:
-    ```bash
-    cd ..\.. 
-    conda env create -f environment_pc.yml
-    conda list
-    ```
+   ```bash
+   cd ..\.. 
+   conda env create -f environment_pc.yml
+   conda list
+   ```
 
 Creating the environment on Windows is slightly diiferent. `NEURON` cannot be installed via the terminal using `pip install neuron`. Instead, `NEURON` must be installed via a downloaded setup.exe. The `NEURON` version in `environment_pc.yml` must match the installed version (for instance, the Windows laptop used for testing had `NEURON 8.2.0` installed). As a result, a separate `environment_pc.yml` is provided for Windows. Limited testing on a Windows laptop showed the simulations working but suggested that, despite reasonable specs, `Intel(R) Core(TM) i5-8350U CPU @ 1.7 GHz 1.9 GHz 32GB`, the code ran extremely slowly in the Windows environment (~ 9-fold slower) when compared to a `MacBook M2 pro 32GB`. In fact, it was slower (~ 4-fold) than a 2015 `MacBook Pro 2.7 GHz Dual-Core Intel core i5`.     
    
