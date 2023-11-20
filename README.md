@@ -549,7 +549,7 @@ Instructions for cloning a repository using GitHub Desktop can be found [here](h
 
 The model was adapted from the publicly available code by [Clay Surmeier](mailto:clay-surmeier@northwestern.edu) and [Vernon Clarke](mailto:vernon.clarke@northwestern.edu).
 
-The provided code was executed on a `MacBook M2 pro 32GB`. We have tried to ensure that the code works on other operating systems but it's inevitable that errors and bugs exist. 
+The provided code was executed on a `MacBook M2 pro 32GB`. We have tried to ensure that the code works on other operating systems but it's inevitable that some errors and bugs exist. 
 
 In order to make this code accessible for publication, it is necessary to create a permanent public repository with a citable DOI using, for example using `Zenodo` to archive a version of this `GitHub` package.
 
