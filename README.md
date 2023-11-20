@@ -169,6 +169,7 @@ The following sections explain the inital set up required and instructions to cr
 
    Choose a Notebook to open (by clicking on any notebook - *.ipynb).
 
+   save_all functions must be changed to run in Windows:
    ```python
    import datetime 
    time = datetime.datetime.now()
