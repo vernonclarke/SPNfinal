@@ -1786,6 +1786,9 @@ def plot3(somaV, dendV, glut_placement=None, yaxis='V (mV)', yrange_soma=[-85,-6
 def save_fig2(soma_fig=None, dend_fig=None, cell_type='dspn', model=None, physiological=True, sim=None, g_name=None):
     import datetime 
     time = datetime.datetime.now()
+    if os.name == 'nt':
+        time = time.strftime("%Y-%m-%d_%H-%M-%S")
+    
     path_cell = "{}".format(cell_type)
     if not os.path.exists(path_cell):
         os.mkdir(path_cell)    
