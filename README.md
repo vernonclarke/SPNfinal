@@ -135,8 +135,8 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
 
 1. **Open Terminal**:
    - On MacOS: Press `cmd + space` to open spotlight search and type `terminal`.
-   - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
-   - On Windows: Search for command prompt or PowerShell in the start menu.
+   - On Linux: Search for `terminal` in your applications menu or press `ctrl + alt + T`.
+   - On Windows: Search for `command prompt`, `PowerShell` or the appropriate `Miniconda/Anaconda prompt` in the start menu.
 
 2. **Activate conda environment 'neuron'**
 
