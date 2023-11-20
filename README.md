@@ -115,8 +115,15 @@ The following sections explain the inital set up required and instructions to cr
 
    I have provided a separate 'environment_pc.yml'. Limited testing on a Windows laptop showed the simulations working.
 
-   You may need to change the NEURON version (the Windows laptop used for testing had NEURON 8.2.0 installed) in 'environment_pc.yml' to match the installed version.
-   Limited testing suggested that despite reasonable specs (Processor: 'Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz   1.90 GHz' and Installed RAM'32.0 GB (31.9 GB usable)', the code ran extremely slowly in the Windows environemnt (approx. 9-fold slower) when compared to a 'MacBook M2 pro 32GB'. In fact it was slower (approx. 4-fold) than a 2015 MacBook Pro 2.7 GHz Dual-Core Intel core i5.     
+   You may need to change the NEURON version (the Windows laptop used for testing had NEURON 8.2.0 installed) in
+
+   'environment_pc.yml' to match the installed version. Limited testing suggested that despite reasonable specs
+
+   (Processor: 'Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz   1.90 GHz' and Installed RAM'32.0 GB (31.9 GB usable)',
+
+   the code ran extremely slowly in the Windows environemnt (approx. 9-fold slower) when compared to a 'MacBook M2 pro 32GB'.
+
+   In fact it was slower (approx. 4-fold) than a 2015 MacBook Pro 2.7 GHz Dual-Core Intel core i5.     
    
    ```bash
    cd ..\.. 
