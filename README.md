@@ -186,7 +186,7 @@ The analyses were conducted in the R graphical user interface (GUI):
   
   In order for the R code to work, it is necessary to load various packages within the R environment.
   
-  The following code should be executed in R prior to running any of the R code.
+  The following code should be executed in R prior to running any of this code.
   
   It checks if required packages are present and, if they are not, then it installs them.
   
