@@ -102,15 +102,15 @@ The following sections explain the inital set up required and instructions to cr
 
    Check installed correctly using 'conda list'.
 
-   On MacOS / Linux:
+On MacOS / Linux:
    ```bash
    cd ../.. 
    conda env create -f environment.yml
    conda list
    ```
-   On Windows:
+On Windows:
 
-  Installing on Windows is slightly diiferent as `NEURON` cannot be installed via the terminal using `pip install neuron`. Instead, `NEURON` must be installed via a downloaded setup.exe. There is a separate `environment_pc.yml` for Windows. Limited testing on a Windows laptop showed the simulations working. You may need to change the `NEURON` version in `environment_pc.yml` to match the installed version (for instance, the Windows laptop used for testing had `NEURON 8.2.0` installed). Limited testing suggested that despite reasonable specs (Processor: `Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz   1.90 GHz` and Installed RAM: `32.0 GB`, the code ran extremely slowly in the Windows environment (approx. 9-fold slower) when compared to a `MacBook M2 pro 32GB`. In fact it was slower (approx. 4-fold) than a 2015 `MacBook Pro 2.7 GHz Dual-Core Intel core i5`.     
+Installing on Windows is slightly diiferent as `NEURON` cannot be installed via the terminal using `pip install neuron`. Instead, `NEURON` must be installed via a downloaded setup.exe. There is a separate `environment_pc.yml` for Windows. Limited testing on a Windows laptop showed the simulations working. You may need to change the `NEURON` version in `environment_pc.yml` to match the installed version (for instance, the Windows laptop used for testing had `NEURON 8.2.0` installed). Limited testing suggested that despite reasonable specs (Processor: `Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz   1.90 GHz` and Installed RAM: `32.0 GB`, the code ran extremely slowly in the Windows environment (approx. 9-fold slower) when compared to a `MacBook M2 pro 32GB`. In fact it was slower (approx. 4-fold) than a 2015 `MacBook Pro 2.7 GHz Dual-Core Intel core i5`.     
    
    ```bash
    cd ..\.. 
