@@ -38,7 +38,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
    
    Conda should include a version of Python. 
 
-   Conda is simply a package manager and environment management system that is used to install, run, and update packages and their dependencies.
+   Conda is simply a package manager and environment management system that is used to install, run and update packages and their dependencies.
 
    Whether to install [Anaconda or Miniconda](#anaconda-vs-miniconda) largely depends on personal preferences.
 
