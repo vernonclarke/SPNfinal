@@ -109,6 +109,7 @@ The following sections explain the inital set up required and instructions to cr
    conda list
    ```
    On Windows:
+
    Installing on Windows is slightly diiferent as NEURON cannot be installed initally via the terminal using 'pip install neuron'.
 
    Neuron must be installed via a downloaded setup.exe.
