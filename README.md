@@ -134,7 +134,7 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
   The following steps 1-4 must be performed every time a new Jupyter Notebook session is started.
 
 1. **Open Terminal**:
-   - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
+   - On MacOS: Press `cmd + space` to open spotlight search and type `terminal`.
    - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
    - On Windows: Search for command prompt or PowerShell in the start menu.
 
