@@ -155,7 +155,7 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
    ```
 4. **Run Jupyter notebook**
 
-   Add 'neuron' environment then open Jupyter Notebook
+   Add `neuron` environment then open Jupyter Notebook
 
    ```bash
    python -m ipykernel install --user --name neuron --display-name "Python (neuron)"
