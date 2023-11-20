@@ -50,9 +50,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
    conda install -c conda-forge notebook
    ```
 
-   [For further info](https://jupyter.org)
-
-5. **Install [NEURON](https://www.neuron.yale.edu)**
+4. **Install [NEURON](https://www.neuron.yale.edu)**
 
   Follow the guide at [NEURON Installation](https://www.neuron.yale.edu/neuron/download)
 
