@@ -44,7 +44,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 3. **Install [Jupyter Notebook](https://jupyter.org)**
 
-   The simplest method to install Jupyter Notebook is via Conda using the command in Terminal:
+   The simplest method to install Jupyter Notebook is via Conda using the command in `terminal`:
 
    ```bash
    conda install -c conda-forge notebook
