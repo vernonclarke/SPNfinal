@@ -94,7 +94,7 @@ The following sections explain the initial set up required and instructions to c
 
 4. **Create a conda environment**
 
-   There is a `yaml` file in the main directory called `environment.yml` for MacOS/Linux. This can be used to create a conda environment called `neuron`. For further information see [Virtual Environments](#virtual-environments).
+   There is a `YAML` file in the main directory called `environment.yml` for MacOS/Linux. This can be used to create a conda environment called `neuron`. For further information see [Virtual Environments](#virtual-environments).
 
    Ensure make sure to navigate back to the main directory after step 3 above.
 
