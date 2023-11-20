@@ -36,7 +36,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 ### Steps
 1. **Install [Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)** (Python package manager)
    
-   Installing Conda should include a version of Python. 
+   Conda should include a version of Python. 
 
    Conda is simply a package manager and environment management system that is used to install, run, and update packages and their dependencies.
 
