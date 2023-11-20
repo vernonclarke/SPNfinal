@@ -109,13 +109,23 @@ The following sections explain the inital set up required and instructions to cr
    conda list
    ```
    On Windows:
+   Installing on Windows is slightly diiferent as NEURON cannot be installed initally via the terminal using 'pip install neuron'.
+
+   Neuron must be installed via a downloaded setup.exe.
+
+   I have provided a separate 'environment_pc.yml'. Limited testing on a Windows laptop showed the simulations working.
+
+   You may need to change the NEURON version (the Windows laptop used for testing had NEURON 8.2.0 installed and the pip line in
+
+   'environment_pc.yml' must match the installed version. However, the testing suggested that despite reasonable specs (Processor: 'Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz   1.90 GHz' and Installed RAM'32.0 GB (31.9 GB usable)', the code ran extremely slowly (approx. 4-fold slower) when compared to a 'MacBook M2 pro 32GB'   
+   
    ```bash
    cd ..\.. 
-   conda env create -f environment.yml
+   conda env create -f environment_pc.yml
    conda list
    ```
    
-6. **Quit Terminal**
+7. **Quit Terminal**
 
    ```bash
    exit
