@@ -251,6 +251,7 @@ The analyses were conducted in the R graphical user interface (GUI):
   
   1. **Open R gui**
   2. **Open `Fig5_EF.R` and run the code**
+  
   ```R
   rm( list=ls(all=TRUE ) )
   # Load and install necessary packages
