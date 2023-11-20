@@ -94,7 +94,7 @@ The following sections explain the initial set up required and instructions to c
    nrnivmodl
    ```
 
-5. **Create a conda environment**
+4. **Create a conda environment**
 
    There is a `yaml` file in the main directory called `environment.yml` for MacOS/Linux. This can be used to create a conda environment called `neuron`. For further information see [Virtual Environments](#virtual-environments).
 
@@ -123,7 +123,7 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
    conda list
    ```
    
-7. **Quit Terminal**
+5. **Quit Terminal**
 
    ```bash
    exit
@@ -153,7 +153,7 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
    cd C:\Users\YourUsername\Repositories\documents\SPNfinal
    conda activate neuron
    ```
-4. **Run Jupyter notebook**
+3. **Run Jupyter notebook**
 
    Add `neuron` environment then open Jupyter Notebook
    ```bash
@@ -161,7 +161,7 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
    jupyter notebook
    ```
 
-5. **Run a simulation**
+4. **Run a simulation**
 
    Jupyter Notebook should now be open in the default browser.
 
