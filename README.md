@@ -175,14 +175,6 @@ The following sections explain the inital set up required and instructions to cr
    Jupyter Notebook should be open in the default browser.
 
    Choose a Notebook to open (by clicking on any notebook - *.ipynb).
-
-   save_all functions must be changed to run in Windows:
-   ```python
-   import datetime 
-   time = datetime.datetime.now()
-   if os.name == 'nt':
-     time = time.strftime("%Y-%m-%d_%H-%M-%S")
-   ```
    
    Ensure kernel is set to Python 3 (ipykernel).
 
