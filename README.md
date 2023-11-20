@@ -463,7 +463,7 @@ Anaconda and Miniconda are both popular distributions for Python and R programmi
 - Python and R language
 - Conda package manager
 - Over 1,500 pre-installed scientific packages
-- Tools like Jupyter Notebook, Spyder, etc.
+- Tools like Jupyter Notebook, RStudio, etc.
 
 Anaconda provides an out-of-the-box setup for data science and scientific computing.
 
