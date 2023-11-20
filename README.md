@@ -70,7 +70,7 @@ The following sections explain the initial set up required and instructions to c
 1. **Install NEURON with Python support** (see setup instructions)
 
 2. **Open Terminal**:
-   - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
+   - On MacOS: Press `cmd + space` to open spotlight search and type `terminal`.
    - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
    - On Windows: Search for command prompt or PowerShell in the start menu.
 
