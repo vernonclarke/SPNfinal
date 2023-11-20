@@ -2,7 +2,7 @@
 
 This repository contains a NEURON model of striatal projection neurons (or SPNs) designed to simulate the interaction between GABAergic and glutamatergic synaptic inputs. 
 
-It also provides all the R code used to produce the graph output (as svg) from the resultant NEURON + Python output. 
+It also provides all the R code used to produce the graph output (in particular as `svg`) from the resultant NEURON + Python output. 
 
 The NEURON + Python model is built on top of the 'striatal_SPN_lib' repository created by Lindroos and Kotaleski, 2020:
 
@@ -36,7 +36,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 ### Steps
 1. **Install [Conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)** (Python package manager)
    
-   Installing Conda should include a version of Python. 
+   Conda should include a version of Python. 
 
    Conda is simply a package manager and environment management system that is used to install, run, and update packages and their dependencies.
 
@@ -44,7 +44,7 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 3. **Install [Jupyter Notebook](https://jupyter.org)**
 
-   The simplest method is to install Jupyter Notebook is via Conda using the command in Terminal:
+   The simplest method to install Jupyter Notebook is via Conda using the command in Terminal:
 
    ```bash
    conda install -c conda-forge notebook
@@ -63,14 +63,14 @@ The original model can be found here [modelDB](https://senselab.med.yale.edu/Mod
 
 ## Running the Models
 
-The following sections explain the inital set up required and instructions to create simulations subsequently used to generate figures.
+The following sections explain the initial set up required and instructions to create simulations subsequently used to generate figures.
 
 ### Getting Started
 
 1. **Install NEURON with Python support** (see setup instructions)
 
 2. **Open Terminal**:
-   - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
+   - On MacOS: Press `cmd + space` to open spotlight search and type `terminal`.
    - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
    - On Windows: Search for command prompt or PowerShell in the start menu.
 
@@ -94,36 +94,38 @@ The following sections explain the inital set up required and instructions to cr
    nrnivmodl
    ```
 
-5. **Create a conda environment**
+4. **Create a conda environment**
 
-   There is a yaml file in the main directory called `environment.yml` for MacOS/Linux. This can be used to create a conda environment called `neuron`. For further information see [Virtual Environments](#virtual-environments).
+   There is a `yaml` file in the main directory called `environment.yml` for MacOS/Linux. This can be used to create a conda environment called `neuron`. For further information see [Virtual Environments](#virtual-environments).
 
    Ensure make sure to navigate back to the main directory after step 3 above.
 
    Check installed correctly using 'conda list'.
 
-  On MacOS / Linux:
+   On MacOS / Linux:
    ```bash
    cd ../.. 
    conda env create -f environment.yml
    conda list
    ```
-  On Windows:
-  ```bash
-   cd ..\.. 
-   conda env create -f environment_pc.yml
-   conda list
-   ```
 
-Creating the environment on Windows is slightly diiferent. `NEURON` cannot be installed via the terminal using `pip install neuron`. Instead, `NEURON` must be installed via a downloaded setup.exe. The `NEURON` version in `environment_pc.yml` must match the installed version (for instance, the Windows laptop used for testing had `NEURON 8.2.0` installed). As a result, a separate `environment_pc.yml` is provided for Windows. Limited testing on a Windows laptop showed the simulations working but suggested that, despite reasonable specs (Processor: `Intel(R) Core(TM) i5-8350U CPU @ 1.7 GHz 1.9 GHz 32GB`), the code ran extremely slowly in the Windows environment (approx. 9-fold slower) when compared to a `MacBook M2 pro 32GB`. In fact it was slower (approx. 4-fold) than a 2015 `MacBook Pro 2.7 GHz Dual-Core Intel core i5`.     
-   
+   On Windows:
    ```bash
    cd ..\.. 
    conda env create -f environment_pc.yml
    conda list
    ```
+  
+   Creating the environment on Windows is slightly different. `NEURON` cannot be installed via the terminal using `pip install neuron`. 
+  
+   Instead, `NEURON` must be installed via a downloaded setup.exe. 
+  
+   The `NEURON` version in   `environment_pc.yml` must match the installed version (for instance, the Windows laptop used for testing had `NEURON 8.2.0` installed). 
+  
+   As a result, a separate `environment_pc.yml` is provided for Windows. Limited testing on a Windows laptop showed the simulations working but suggested that, despite reasonable specs, `Intel(R) Core(TM) i5-8350U CPU @ 1.7 GHz 1.9 GHz 32GB`, the code ran extremely slowly in the Windows environment (~ 9-fold slower) when compared to a `MacBook M2 pro 32GB`. In fact, it was slower (~ 4-fold) than a 2015 `MacBook Pro 2.7 GHz Dual-Core Intel core i5`.     
+     
    
-7. **Quit Terminal**
+5. **Quit Terminal**
 
    ```bash
    exit
@@ -131,12 +133,12 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
    
 ### Running simulations in Jupyter Notebook
 
-  The following steps 1-4 must be every time a new Jupyter Notebook session is started.
+  The following steps 1-4 must be performed every time a new Jupyter Notebook session is started.
 
 1. **Open Terminal**:
-   - On MacOS: Press `cmd + space` to open spotlight search and type 'terminal'.
-   - On Linux: Search for terminal in your applications menu or press `ctrl + alt + T`.
-   - On Windows: Search for command prompt or PowerShell in the start menu.
+   - On MacOS: Press `cmd + space` to open spotlight search and type `terminal`.
+   - On Linux: Search for `terminal` in your applications menu or press `ctrl + alt + T`.
+   - On Windows: Search for `command prompt`, `PowerShell` or the appropriate `Miniconda/Anaconda prompt` in the start menu.
 
 2. **Activate conda environment 'neuron'**
 
@@ -153,20 +155,19 @@ Creating the environment on Windows is slightly diiferent. `NEURON` cannot be in
    cd C:\Users\YourUsername\Repositories\documents\SPNfinal
    conda activate neuron
    ```
-4. **Run Jupyter notebook**
+3. **Run Jupyter notebook**
 
-   Add 'neuron' environment then open Jupyter Notebook
-
+   Add `neuron` environment then open Jupyter Notebook
    ```bash
    python -m ipykernel install --user --name neuron --display-name "Python (neuron)"
    jupyter notebook
    ```
 
-5. **Run a simulation**
+4. **Run a simulation**
 
-   Jupyter Notebook should be open in the default browser.
+   Jupyter Notebook should now be open in the default browser.
 
-   Choose a Notebook to open (by clicking on any notebook - *.ipynb).
+   Choose a Notebook to open (by clicking on any notebook - `*.ipynb`).
    
    Ensure kernel is set to Python 3 (ipykernel).
 
@@ -189,13 +190,15 @@ The analyses were conducted in the R graphical user interface (GUI):
 
   ### Setting up
   
+  Only the R console was used for analysis. 
+  
+  If you prefer to work with `RStudio`, it can be downloaded [here](https://posit.co/products/open-source/rstudio/). The provided code should work although this has not been tested.
+  
   In order for the R code to work, it is necessary to load various packages within the R environment.
   
-  The following code should be executed in R prior to running any of this code.
+  The following code should be executed in R prior to running any of this code. It checks if the required packages are present and, if they are not, it will install them.
   
-  It checks if required packages are present and, if they are not, then it installs them.
-  
-  In addition, the first time the code is executed, it will install a Miniconda environment using the reticulate package in R: 
+  In addition, the first time the code is executed, it will install a Miniconda environment using the `reticulate` package in R: 
 
   The following steps 1-3 must be performed once.
   
@@ -236,11 +239,11 @@ The analyses were conducted in the R graphical user interface (GUI):
   
   ### Using R to analyse a simulation
   
-  To run the analysis code, simply execute all the code for that particular R analysis file after having run the relevant *.ipynb file.
+  To run the analysis code, simply execute all the code for that particular R analysis file after having run the relevant `*.ipynb` file.
   
-  Each simulation has a unique identifier; for instance, `Fig5_EF.ipynb` is `sim4`. 
+  Each simulation has a unique identifier in its `*.ipynb`; for instance, `Fig5_EF.ipynb` is `sim4`. 
   
-  Once the Jupyter Notebook is executed with `save = True`, the outputs are stored automatically. 
+  Once the Jupyter Notebook is executed with `save = True`, the outputs are stored automatically in a subfolder using the identifier. 
   
   In this case, raw trace data is stored as pickled files in the subdirectory `dspn/model1/physiological/simulations/sim4`. 
   
@@ -249,7 +252,7 @@ The analyses were conducted in the R graphical user interface (GUI):
   The R code to analyse the output from `Fig5_EF.ipynb` is found in `Fig5_EF.R` in the `R analysis` directory. 
   
   1. **Open R gui**
-  2. **Open `Fig5_EF.ipynb` and run the code**
+  2. **Open `Fig5_EF.R` and run the code**
   ```R
   rm( list=ls(all=TRUE ) )
   # Load and install necessary packages
@@ -443,6 +446,9 @@ if (plotsave) {
   # ...plotting code...
   dev.off()
   ```
+  ### Please note:
+  
+  The code provided in `Fig7_BD2.R` gives the graphical output for `Fig7_BD2.ipynb`. However, because I forgot to run gbar_gaba = 0 in `Fig7_BD2.ipynb` which is necessary for the R analysis,  the R code will retrieve this from  `Fig7_BD.ipynb`. This means both `Fig7_BD.ipynb` and `Fig7_BD2.ipynb` need to be run prior to analysis with `Fig7_BD2.R`. A similar arrangement applies to `Fig7_E.ipynb`, `Fig7_E2.ipynb` and `Fig7_E2.R`.
  
   ### Key Points for Windows:
   - The path should be changed to reflect the typical Windows file structure. Make sure to replace `YourUsername` with your actual username.
@@ -476,7 +482,7 @@ Miniconda provides a lightweight base to start with and but packages must be ins
 - Quick, easy setup with a comprehensive suite of scientific packages and tools.
 - Wide array of data science tools readily available within a single application.
 
-**Advantages of Miniconda**::
+**Advantages of Miniconda**:
 
 - Lightweight, minimal base installation.
 - Control over which packages are installed.
@@ -542,12 +548,13 @@ Instructions for cloning a repository using GitHub Desktop can be found [here](h
 
 ## Contact
 
-The model was adapted from the publicly available code by Clay Surmeier and Vernon Clarke
+The model was adapted from the publicly available code by [Clay Surmeier](mailto:clay-surmeier@northwestern.edu) and [Vernon Clarke](mailto:vernon.clarke@northwestern.edu).
 
-vernon.clarke@northwestern.edu
+The provided code was executed on a `MacBook M2 pro 32GB`. We have tried to ensure that the code works on other operating systems but it's inevitable that errors and bugs exist. 
 
-clay-surmeier@northwestern.edu
+In order to make this code accessible for publication, it is necessary to create a permanent public repository with a citable DOI using, for example using `Zenodo` to archive a version of this `GitHub` package.
 
+If any bug fixes are necessary (most likely related to providing help on other operating systems), it will be provided as an update on the parent [`GitHub` page](https://github.com/vernonclarke/SPNfinal).
 
 For queries related to this repository, please [open an issue](https://github.com/vernonclarke/SPNfinal/issues) or [email](mailto:vernon.clarke@northwestern.edu) directly 
 
