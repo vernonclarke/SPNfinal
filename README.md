@@ -547,7 +547,7 @@ Instructions for cloning a repository using GitHub Desktop can be found [here](h
 
 ## Contact
 
-The model was adapted from the publicly available code by [Clay Surmeier](mailto:clay-surmeier@northwestern.edu) and [Vernon Clarke](mailto:vernon.clarke@northwestern.edu).
+The model was adapted from the publicly available code by Clay Surmeier and Vernon Clarke.
 
 The provided code was executed on a `MacBook M2 pro 32GB`. We have tried to ensure that the code works on other operating systems but it's inevitable that some errors and bugs exist. 
 
@@ -555,7 +555,7 @@ In order to make this code accessible for publication, it is necessary to create
 
 If any bug fixes are necessary (most likely related to providing help on other operating systems), it will be provided as an update on the parent [`GitHub` page](https://github.com/vernonclarke/SPNfinal).
 
-For queries related to this repository, please [open an issue](https://github.com/vernonclarke/SPNfinal/issues) or [email](mailto:vernon.clarke@northwestern.edu) directly 
+For queries related to this repository, please [open an issue](https://github.com/vernonclarke/SPNfinal/issues) or [email](mailto:johnnythunders70@nproton.me) directly 
 
 ---
 
