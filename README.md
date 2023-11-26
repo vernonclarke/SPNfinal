@@ -555,7 +555,7 @@ In order to make this code accessible for publication, it is necessary to create
 
 If any bug fixes are necessary (most likely related to providing help on other operating systems), it will be provided as an update on the parent [`GitHub` page](https://github.com/vernonclarke/SPNfinal).
 
-For queries related to this repository, please [open an issue](https://github.com/vernonclarke/SPNfinal/issues) or [email](mailto:johnnythunders70@nproton.me) directly 
+For queries related to this repository, please [open an issue](https://github.com/vernonclarke/SPNfinal/issues) or [email](mailto:johnnythunders70@proton.me) directly 
 
 ---
 
